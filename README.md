@@ -1,7 +1,7 @@
 # Gnoland Token Resources
 This repository is a comprehensive and up-to-date collection of information related to tokens on Gnoland, including Gno-native, GRC20, IBC-native, and IBC-tokens.
 
-As we embrace true decentralization and permissionless platforms on top of Gnoland, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repo. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
+ As we embrace true decentralization and permissionless platforms on top of Gnoland, anyone can submit information about their tokens and any products or services can freely use the token resources in this repo. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
 
 ## Products that use this repository
 - [Adena](https://adena.app/)
@@ -24,18 +24,18 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
 
 3. Add information about your token to be displayed
    - Required information:
-     - `name`: The name of your token to be displayed. Please capitalized the first letter.
+     - `name`: The name of your token to be displayed. Please make the first letter capital.
      - `denom`: The denom of your token.
-     - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters capital.
+     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters capital.
      - `decimals`: The decimals of your token.
-     - `description`: A description of your token. You can write up upto 1500 letters. 
+     - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/gno-native/` folder.
+         - Add the image file in `/images/gno-native` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/gno-native/`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/gno-native/<YOUR-TOKEN-SYMBOL>.json`
 
 ---
 
@@ -48,14 +48,14 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
       "denom": "ugnot", 
       "symbol": "GNOT",
       "decimals": 6, 
-      "description": "Gno.land is a layer-1 blockchain that integrates various cutting-edge technologies, including Tendermint2, GnoVM, Proof-of-Contributions consensus mechanism, on-chain governance through a new DAO framework with support for sub-DAOs, and a unique licensing model that allows open-source code to be monetized by default.", 
+      "description": "Gno.land is a layer-1 blockchain that integrates a series of cutting-edge technologies, including Tendermint2, GnoVM, the Proof-of-Contribution consensus mechanism, on-chain governance through a new DAO framework with support for sub-DAOs, and a unique licensing model that enables built-in monetization of open-source code.", 
       "website_url": "https://gno.land/",
       "image": "/images/gno-native/gnot.svg",
     }
   ]
   ```
 
-5. Commit and push it to your fork repository
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -63,7 +63,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
    git push origin <branch_name>
    ```
 
-6. Make a pull request from your fork repository to main
+6. Make a pull request from your forked repo to `main`
 </details>
 
 
@@ -82,18 +82,18 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
 
 3. Add information about your token to be displayed
    - Required information:
-     - `name`: The name of your token to be displayed. Please make the first letter capital.
+     - `name`: The name of your token to be displayed. Please capitalize the first letter.
      - `pkg_path`: The package path of your GRC20 realm.
-     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters capital.
+     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
-     - `description`: A description of your token. You can write up upto 1500 letters. 
+     - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/grc20/` folder.
+         - Add the image file in `/images/grc20` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/grc20/`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/grc20/<YOUR-TOKEN-SYMBOL>.json`
 
 ---
 
@@ -113,7 +113,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
   ]
   ```
 
-5. Commit and push it to your fork repository
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -121,14 +121,14 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
    git push origin <branch_name>
    ```
 
-6. Make a pull request from your fork repository to main
+6. Make a pull request from your forked repo to `main`
 </details>
 
 
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>IBC-native</h2></summary>
 
-1. Fork this repo to your own GitHub account
+1. Fork this repo to your own github account
 2. Clone fork and create new branch
 
    ```shell
@@ -140,19 +140,19 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
 
 3. Add information about your token to be displayed
    - Required information:
-     - `name`: The name of your token to be displayed. Please make the first letter capital.
+     - `name`: The name of your token to be displayed. Please capitalize the first letter.
      - `denom`: The denom of your token.
      - `chain`: The origin chain that the token was issued from.
-     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters with capital.
+     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
-     - `description`: A description of your token. You can write up upto 1500 letters. 
+     - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-native/` folder.
+         - Add the image file in `/images/ibc-native` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-native/`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-native/<YOUR-TOKEN-SYMBOL>.json`
 
 ---
 
@@ -165,14 +165,14 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
       "denom": "uatom", 
       "symbol": "ATOM",
       "decimals": 6, 
-      "description": " ", 
+      "description": "The ATOM token is the native token of the Cosmos Hub. In return for securing the Hub's services by staking ATOM, transaction fees and staking rewards are distributed to the Cosmos Hub.", 
       "website_url": "https://cosmos.network/",
       "image": "/images/ibc-native/atom.svg",
     }
   ]
   ```
 
-5. Commit and push it to your fork repository
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -180,7 +180,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
    git push origin <branch_name>
    ```
 
-6. Make a pull request from your fork repository to main
+6. Make a pull request from your forked repo to `main`
 </details>
 
 
@@ -203,17 +203,17 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
      - `origin_chain`: The origin chain that your token was issued from.
      - `origin_denom`: The origin denom of your token.
      - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, erc20).
-     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters with capital.
+     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
-     - `path`: The path way that your IBC token has gone through from the origin chain.
+     - `path`: The path way that your IBC token has traveled through from the origin chain.
      - `channel`: The channel of the chain that your IBC token is currently at.
      - `port`: The port of your IBC tokens.
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-tokens/` folder.
+         - Add the image file in `/images/ibc-tokens` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/atom.json`
 
 ---
 
@@ -228,7 +228,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
       "origin_type": "native",
       "symbol": "ATOM",
       "decimals": 6,
-      "path": "cosmos>osmosis", //The IBC Atom token is at the Osmosis chain
+      "path": "cosmos>osmosis", //The IBC Atom token is on the Osmosis chain
       "channel": "channel-0", //A channel of the Osmosis chain 
       "port": "transfer",
       "image": "/images/ibc-tokens/atom.svg", //Optional
@@ -236,7 +236,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
   ]
   ```
 
-5. Commit and push it to your fork repository
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -244,7 +244,7 @@ As we embrace true decentralization and permissionless platforms on top of Gnola
    git push origin <branch_name>
    ```
 
-6. Make a pull request from your fork repository to main
+6. Make a pull request from your forked repo to `main`
 </details>
 
 
