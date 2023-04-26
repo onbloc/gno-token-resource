@@ -253,4 +253,4 @@ This repository is a comprehensive and up-to-date colloection of information rel
 The Onbloc team ("we") allows anyone to submit new tokens to this repository. However, this does not mean that we are in direct partnership with all of the projects. Although we thoroughly review the submissions, we do not guarantee the integrity of projects on this repository. The approval of a submission is not an endorsement nor investment advice of any assets. Also, we will reject projects that are deemed as scams or fraudulent after careful review. We reserve the right to change the terms of submissions of token information at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
 
 ## License
-Copyright ©  Co., Ltd. All rights reserved. This repository is lucensed under the [MIT lucense](https://github.com/onbloc/gno-token-resource/blob/main/LICENSE).
+Copyright ©  Co., Ltd. All rights reserved. This repository is licensed under the [MIT license](https://github.com/onbloc/gno-token-resource/blob/main/LICENSE).
