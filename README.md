@@ -1,7 +1,7 @@
 # Gnoland Token Resources
 This repository is a comprehensive and up-to-date collection of information related to tokens on Gnoland, including Gno-native, GRC20, IBC-native, and IBC-tokens.
 
- As we embrace true decentralization and permissionless platforms on top of Gnoland, anyone can submit information about their tokens and any products or services can freely use the token resources in this repo. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
+As we embrace true decentralization and permissionless platforms on Gnoland, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repository. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
 
 ## Products that use this repository
 - [Adena](https://adena.app/)
@@ -16,26 +16,26 @@ This repository is a comprehensive and up-to-date collection of information rela
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:<YOUR_ACCOUNT>/gno-token-resource.git
    cd gno-token-resource
-   git branch <branch_name>
-   git checkout <branch_name>
+   git branch <BRANCH_NAME>
+   git checkout <BRANCH_NAME>
    ```
 
 3. Add information about your token to be displayed
    - Required information:
-     - `name`: The name of your token to be displayed. Please make the first letter capital.
+     - `name`: The name of your token to be displayed. Please capitalize the first letter.
      - `denom`: The denom of your token.
-     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters capital.
+     - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
-     - `image`: The image route of your token. 
-         - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/gno-native` folder.
+     - `image`: The location of the image of your token. 
+         - Use the `svg` format and set the file's name as <YOUR-TOKEN-SYMBOL.svg>
+         - Add the image file in `/images/gno-native/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/gno-native/<YOUR-TOKEN-SYMBOL>.json`
+4. Format the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and place it in `/tokens/gno-native/`
 
 ---
 
@@ -60,7 +60,7 @@ This repository is a comprehensive and up-to-date collection of information rela
    ```shell
    git add -A
    git commit -m “Add <YOUR-TOKEN-SYMBOL>”
-   git push origin <branch_name>
+   git push origin <BRANCH_NAME>
    ```
 
 6. Make a pull request from your forked repo to `main`
@@ -74,10 +74,10 @@ This repository is a comprehensive and up-to-date collection of information rela
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:<YOUR_ACCOUNT>/gno-token-resource.git
    cd gno-token-resource
-   git branch <branch_name>
-   git checkout <branch_name>
+   git branch <BRANCH_NAME>
+   git checkout <BRANCH_NAME>
    ```
 
 3. Add information about your token to be displayed
@@ -88,12 +88,12 @@ This repository is a comprehensive and up-to-date collection of information rela
      - `decimals`: The decimals of your token.
      - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
-     - `image`: The image route of your token. 
-         - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/grc20` folder.
+     - `image`: The location of the image of your token. 
+         - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
+         - Add the image file in `/images/grc20/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/grc20/<YOUR-TOKEN-SYMBOL>.json`
+4. Format the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and place it in `/tokens/grc20/`
 
 ---
 
@@ -118,7 +118,7 @@ This repository is a comprehensive and up-to-date collection of information rela
    ```shell
    git add -A
    git commit -m “Add <YOUR-TOKEN-SYMBOL>”
-   git push origin <branch_name>
+   git push origin <BRANCH_NAME>
    ```
 
 6. Make a pull request from your forked repo to `main`
@@ -128,14 +128,14 @@ This repository is a comprehensive and up-to-date collection of information rela
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>IBC-native</h2></summary>
 
-1. Fork this repo to your own github account
-2. Clone fork and create new branch
+1. Fork this repo to your own GitHub account
+2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:<YOUR_ACCOUNT>/gno-token-resource.git
    cd gno-token-resource
-   git branch <branch_name>
-   git checkout <branch_name>
+   git branch <BRANCH_NAME>
+   git checkout <BRANCH_NAME>
    ```
 
 3. Add information about your token to be displayed
@@ -147,12 +147,12 @@ This repository is a comprehensive and up-to-date collection of information rela
      - `decimals`: The decimals of your token.
      - `description`: A description of your token. You can write up to 1500 letters. 
      - `website_url`: The Website URL of your token. 
-     - `image`: The image route of your token. 
-         - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-native` folder.
+     - `image`: The location of the image of your token. 
+         - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
+         - Add the image file in `/images/ibc-native/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-native/<YOUR-TOKEN-SYMBOL>.json`
+4. Format the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and place it in `/tokens/ibc-native/`
 
 ---
 
@@ -177,7 +177,7 @@ This repository is a comprehensive and up-to-date collection of information rela
    ```shell
    git add -A
    git commit -m “Add <YOUR-TOKEN-SYMBOL>”
-   git push origin <branch_name>
+   git push origin <BRANCH_NAME>
    ```
 
 6. Make a pull request from your forked repo to `main`
@@ -191,10 +191,10 @@ This repository is a comprehensive and up-to-date collection of information rela
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:<YOUR_ACCOUNT>/gno-token-resource.git
    cd gno-token-resource
-   git branch <branch_name>
-   git checkout <branch_name>
+   git branch <BRANCH_NAME>
+   git checkout <BRANCH_NAME>
    ```
 
 3. Add information about your token to be displayed
@@ -202,18 +202,18 @@ This repository is a comprehensive and up-to-date collection of information rela
      - `denom`: The denom of your token.
      - `origin_chain`: The origin chain that your token was issued from.
      - `origin_denom`: The origin denom of your token.
-     - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, erc20).
+     - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, or erc20).
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `path`: The path way that your IBC token has traveled through from the origin chain.
-     - `channel`: The channel of the chain that your IBC token is currently at.
-     - `port`: The port of your IBC tokens.
-     - `image`: The image route of your token. 
-         - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-tokens` folder.
+     - `channel`: The channel of the chain that your IBC token is currently on.
+     - `port`: The port of your IBC token.
+     - `image`: The location of the image of your token. 
+         - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
+         - Add the image file in `/images/ibc-tokens/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/atom.json`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/`
 
 ---
 
@@ -241,7 +241,7 @@ This repository is a comprehensive and up-to-date collection of information rela
    ```shell
    git add -A
    git commit -m “Add <YOUR-TOKEN-SYMBOL>”
-   git push origin <branch_name>
+   git push origin <BRANCH_NAME>
    ```
 
 6. Make a pull request from your forked repo to `main`
