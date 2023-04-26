@@ -1,7 +1,7 @@
 # Gnoland Token Resources
-This repository is a comprehensive and up-to-date colloection of information related to Gnoland tokens, including Gno-native, GRC20, IBC-native, and IBC-tokens.
+This repository is a comprehensive and up-to-date collection of information related to tokens on Gnoland, including Gno-native, GRC20, IBC-native, and IBC-tokens.
 
- As we embrace true decentralization and permissionless platforms on top of Gnoland, anyone can submit information about their tokens and any products or services can freely use the token resources in this repo. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
+As we embrace true decentralization and permissionless platforms on top of Gnoland, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repo. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
 
 ## Products that use this repository
 - [Adena](https://adena.app/)
@@ -12,11 +12,11 @@ This repository is a comprehensive and up-to-date colloection of information rel
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>Gno-native</h2></summary>
 
-1. Fork this repo to your own github account
+1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@github.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
    cd gno-token-resource
    git branch <branch_name>
    git checkout <branch_name>
@@ -24,24 +24,24 @@ This repository is a comprehensive and up-to-date colloection of information rel
 
 3. Add information about your token to be displayed
    - Required information:
-     - `name`: The name of your token to be displayed. Please make the first letter capital.
+     - `name`: The name of your token to be displayed. Please capitalized the first letter.
      - `denom`: The denom of your token.
-     - `symbol`: A short version of your token name, AKA a ticker. Please make all letters capital.
+     - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters capital.
      - `decimals`: The decimals of your token.
      - `description`: A description of your token. You can write up upto 1500 letters. 
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/gno-native` folder.
+         - Add the image file in `/images/gno-native/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/gno-native/<YOUR-TOKEN-SYMBOL>.json`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/gno-native/`
 
 ---
 
   ```json
   // An example with Gnoland
-  // located in /tokens/gno-native/gnot.json
+  // gnot.json file located in /tokens/gno-native/
   [
     {
       "name": "Gnoland", 
@@ -70,11 +70,11 @@ This repository is a comprehensive and up-to-date colloection of information rel
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>GRC20</h2></summary>
 
-1. Fork this repo to your own github account
+1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@github.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
    cd gno-token-resource
    git branch <branch_name>
    git checkout <branch_name>
@@ -90,16 +90,16 @@ This repository is a comprehensive and up-to-date colloection of information rel
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/grc20` folder.
+         - Add the image file in `/images/grc20/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/grc20/<YOUR-TOKEN-SYMBOL>.json`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/grc20/`
 
 ---
 
   ```json
   // An example with Foo
-  // located in /tokens/grc20/foo.json
+  // foo.json file located in /tokens/grc20/
   [
     {
       "name": "Foo", 
@@ -128,11 +128,11 @@ This repository is a comprehensive and up-to-date colloection of information rel
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>IBC-native</h2></summary>
 
-1. Fork this repo to your own github account
+1. Fork this repo to your own GitHub account
 2. Clone fork and create new branch
 
    ```shell
-   git clone git@github.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
    cd gno-token-resource
    git branch <branch_name>
    git checkout <branch_name>
@@ -149,16 +149,16 @@ This repository is a comprehensive and up-to-date colloection of information rel
      - `website_url`: The Website URL of your token. 
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-native` folder.
+         - Add the image file in `/images/ibc-native/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-native/<YOUR-TOKEN-SYMBOL>.json`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-native/`
 
 ---
 
   ```json
   // An example with Cosmos
-  // located in /tokens/ibc-native/atom.json
+  // atom.json file located in /tokens/ibc-native/
   [
     {
       "name": "Cosmos", 
@@ -187,11 +187,11 @@ This repository is a comprehensive and up-to-date colloection of information rel
 <details>
   <summary><h2 style='display: inline; font-size: 16px'>IBC-tokens</h2></summary>
 
-1. Fork this repo to your own github account
+1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
 
    ```shell
-   git clone git@github.com:YOUR_ACCOUNT/gno-token-resource.git
+   git clone git@GitHub.com:YOUR_ACCOUNT/gno-token-resource.git
    cd gno-token-resource
    git branch <branch_name>
    git checkout <branch_name>
@@ -210,16 +210,16 @@ This repository is a comprehensive and up-to-date colloection of information rel
      - `port`: The port of your IBC tokens.
      - `image`: The image route of your token. 
          - Use the `svg` format and make the file's name as <YOUR-TOKEN-SYMBOL.svg>
-         - Add the image file in `/images/ibc-tokens` folder.
+         - Add the image file in `/images/ibc-tokens/` folder.
 
 
-4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/atom.json`
+4. Make the name of your json file as <YOUR-TOKEN-SYMBOL.json>, and locate it in `/tokens/ibc-tokens/`
 
 ---
 
   ```json
   // An example with Cosmos
-  // located in /tokens/ibc-tokens/atom.json
+  // atom.json file located in /tokens/ibc-tokens/
   [
     {
       "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -253,4 +253,4 @@ This repository is a comprehensive and up-to-date colloection of information rel
 The Onbloc team ("we") allows anyone to submit new tokens to this repository. However, this does not mean that we are in direct partnership with all of the projects. Although we thoroughly review the submissions, we do not guarantee the integrity of projects on this repository. The approval of a submission is not an endorsement nor investment advice of any assets. Also, we will reject projects that are deemed as scams or fraudulent after careful review. We reserve the right to change the terms of submissions of token information at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
 
 ## License
-Copyright © Onbloc Co., Ltd. All rights reserved. This repository is licensed under the [MIT license](https://github.com/onbloc/gno-token-resource/blob/main/LICENSE).
+Copyright © Onbloc Co., Ltd. All rights reserved. This repository is licensed under the [MIT license](https://GitHub.com/onbloc/gno-token-resource/blob/main/LICENSE).
