@@ -83,7 +83,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 3. Add information about your token to be displayed
    - Required information:
      - `name`: The name of your token to be displayed. Please capitalize the first letter.
-     - `denom`: The denom of your token.
+     - `pkg_path`: The package path of your GRC20 realm.
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `description`: A description of your token. You can write up to 1500 letters. 
@@ -253,4 +253,4 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 The Onbloc team ("we") allows anyone to submit new tokens to this repository. However, this does not mean that we are in direct partnership with all of the projects. Although we thoroughly review the submissions, we do not guarantee the integrity of projects on this repository. The approval of a submission is not an endorsement nor investment advice of any assets. Also, we will reject projects that are deemed as scams or fraudulent after careful review. We reserve the right to change the terms of submissions of token information at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
 
 ## License
-Copyright ©  Co., Ltd. All rights reserved. This repository is licensed under the [MIT license](https://github.com/onbloc/gno-token-resource/blob/main/LICENSE).
+Copyright © Onbloc Co., Ltd. All rights reserved. This repository is licensed under the [MIT license](https://github.com/onbloc/gno-token-resource/blob/main/LICENSE).
