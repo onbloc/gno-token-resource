@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Gnoland",
+    "denom": "ugnot",
+    "symbol": "GNOT",
+    "decimals": 6,
+    "description": "Gno.land is a layer-1 blockchain that integrates a series of cutting-edge technologies, including Tendermint2, GnoVM, the Proof-of-Contribution consensus mechanism, on-chain governance through a new DAO framework with support for sub-DAOs, and a unique licensing model that enables built-in monetization of open-source code.",
+    "website_url": "https://gno.land/",
+    "image": "/images/gno-native/gnot.svg"
+  }
+]
