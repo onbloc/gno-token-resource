@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "Tong",
+    "pkg_path": "gno.land/r/demo/tong",
+    "symbol": "TONG",
+    "decimals": 4,
+    "description": "Tong is a realm of GRC20",
+    "website_url": "https://test3.gno.land/r/demo/tong",
+    "image": "/grc20/images/gno_land_r_demo_tong.svg"
+  }
+]

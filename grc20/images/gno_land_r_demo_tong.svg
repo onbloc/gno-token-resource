@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="320" width="320" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<radialGradient id="a" gradientUnits="userSpaceOnUse" cy="143" cx="127" r="152">
+		<stop stop-color="#fe3" offset="0"/>
+		<stop stop-color="#f80" offset="1"/>
+	</radialGradient>
+</defs>
+<circle stroke-width="5.3" stroke="#950" cy="160" cx="160" r="151" fill="url(#a)"/>
+<g id="b">
+	<circle stroke-width="5.3" stroke="#950" cy="132" cx="186" r="34" fill="#fff"/>
+	<circle cx="180" cy="142" r="20.5"/>
+</g>
+<path d="m51 193c50 57 106 71 174 8" stroke="#520" stroke-linecap="round" stroke-width="13" fill="none"/>
+<use xlink:href="#b" transform="matrix(-1,0,0,1,279,0)"/>
+</svg>
