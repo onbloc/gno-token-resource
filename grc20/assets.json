@@ -8,7 +8,6 @@
     "website_url": "https://test3.gno.land/r/demo/tong",
     "image": "/grc20/images/gno_land_r_demo_tong.svg"
   },
-
   {
     "name": "Foo",
     "pkg_path": "gno.land/r/foo",
@@ -16,9 +15,8 @@
     "decimals": 4,
     "description": "Foo is a GRC20 token solely with the testing purpose.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/foo.svg"
+    "image": "/grc20/images/gno_land_r_foo.svg"
   },
-
   {
     "name": "Bar",
     "pkg_path": "gno.land/r/bar",
@@ -26,9 +24,8 @@
     "decimals": 4,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/bar.svg"
+    "image": "/grc20/images/gno_land_r_bar.svg"
   },
-
   {
     "name": "Baz",
     "pkg_path": "gno.land/r/baz",
@@ -36,9 +33,8 @@
     "decimals": 4,
     "description": "Baz is a GRC20 token solely with the testing purpose.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/baz.svg"
+    "image": "/grc20/images/gno_land_r_baz.svg"
   },
-
   {
     "name": "Quz",
     "pkg_path": "gno.land/r/quz",
@@ -46,9 +42,8 @@
     "decimals": 4,
     "description": "Quz is a GRC20 token solely with the testing purpose.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/quz.svg"
+    "image": "/grc20/images/gno_land_r_quz.svg"
   },
-
   {
     "name": "Gnoswap",
     "pkg_path": "gno.land/r/gns",
@@ -56,7 +51,6 @@
     "decimals": 4,
     "description": "GNS is a GRC20 token solely with the testing purpose.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/gns.svg"
+    "image": "/grc20/images/gno_land_r_gns.svg"
   }
 ]
-
