@@ -36,13 +36,13 @@
     "image": "/grc20/images/gno_land_r_baz.svg"
   },
   {
-    "name": "Quz",
-    "pkg_path": "gno.land/r/quz",
-    "symbol": "QUZ",
+    "name": "Qux",
+    "pkg_path": "gno.land/r/qux",
+    "symbol": "QUX",
     "decimals": 4,
-    "description": "Quz is a GRC20 token solely with the testing purpose.",
+    "description": "Qux is a GRC20 token solely with the testing purpose.",
     "website_url": "https://twitter.com/gnoswaplabs",
-    "image": "/grc20/images/gno_land_r_quz.svg"
+    "image": "/grc20/images/gno_land_r_qux.svg"
   },
   {
     "name": "Gnoswap",
