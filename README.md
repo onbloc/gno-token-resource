@@ -27,6 +27,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 3. Add information about your token to be displayed
 
    - Required information:
+     - `id`: The id of your token. This must be unique value
      - `name`: The name of your token to be displayed. Please capitalize the first letter.
      - `denom`: The denom of your token.
      - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters.
@@ -46,6 +47,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 // assets.json file located in /gno-native/
 [
   {
+    "id": "gnot",
     "name": "Gnoland",
     "denom": "ugnot",
     "symbol": "GNOT",
