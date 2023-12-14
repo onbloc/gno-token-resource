@@ -10,7 +10,7 @@
   },
   {
     "name": "Foo",
-    "pkg_path": "gno.land/r/foo",
+    "pkg_path": "gno.land/r/demo/foo",
     "symbol": "FOO",
     "decimals": 6,
     "description": "Foo is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Bar",
-    "pkg_path": "gno.land/r/bar",
+    "pkg_path": "gno.land/r/demo/bar",
     "symbol": "BAR",
     "decimals": 6,
     "description": "Bar is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Baz",
-    "pkg_path": "gno.land/r/baz",
+    "pkg_path": "gno.land/r/demo/baz",
     "symbol": "BAZ",
     "decimals": 6,
     "description": "Baz is a GRC20 token issued solely with testing purpose.",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Qux",
-    "pkg_path": "gno.land/r/qux",
+    "pkg_path": "gno.land/r/demo/qux",
     "symbol": "QUX",
     "decimals": 6,
     "description": "Qux is a GRC20 token issued solely with testing purpose.",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Fred",
-    "pkg_path": "gno.land/r/fred",
+    "pkg_path": "gno.land/r/demo/fred",
     "symbol": "FRED",
     "decimals": 6,
     "description": "FRED is a GRC20 token issued solely for testing purposes.",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Gnoswap",
-    "pkg_path": "gno.land/r/gns",
+    "pkg_path": "gno.land/r/demo/gns",
     "symbol": "GNS",
     "decimals": 6,
     "description": "GNS is a GRC20 token issued solely for testing purposes.",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Onbloc",
-    "pkg_path": "gno.land/r/obl",
+    "pkg_path": "gno.land/r/demo/obl",
     "symbol": "OBL",
     "decimals": 6,
     "description": "OBL is a GRC20 token issued solely for testing purposes.",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Thud",
-    "pkg_path": "gno.land/r/thud",
+    "pkg_path": "gno.land/r/demo/thud",
     "symbol": "THUD",
     "decimals": 6,
     "description": "THUD is a GRC20 token issued solely for testing purposes.",
