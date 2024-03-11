@@ -88,5 +88,14 @@
     "description": "THUD is a GRC20 token issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
     "image": "/grc20/images/gno_land_r_thud.svg"
+  },
+  {
+    "name": "Flippando",
+    "pkg_path": "gno.land/r/demo/flippando/token",
+    "symbol": "FLIP",
+    "decimals": 6,
+    "description": "Flippando is an on-chain memory game, creating a virtual econonmy of goods. FLIP is a GRC20 token used in this virtual economy.",
+    "website_url": "https://gno.flippando.xyz/",
+    "image": "/grc20/images/gno_land_r_flip.svg"
   }
 ]
