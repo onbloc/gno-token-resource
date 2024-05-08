@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Foo",
+    "pkg_path": "gno.land/r/demo/foo20",
+    "symbol": "FOO",
+    "decimals": 4,
+    "chain_id": "portal-loop",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
+    "website_url": "https://gno.land/r/demo/foo20",
+    "image": ""
+  },
+  {
+    "name": "wrapped GNOT",
+    "pkg_path": "gno.land/r/demo/wugnot",
+    "symbol": "wugnot",
+    "decimals": 0,
+    "chain_id": "portal-loop",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
+    "website_url": "https://gno.land/r/demo/wugnot",
+    "image": "/grc20/images/gno_land_r_wgnot"
+  }
+]
