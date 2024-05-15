@@ -105,6 +105,6 @@
   "decimals": 6,
   "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
   "website_url": "https://beta.gnoswap.io",
-  "image": "/grc20/images/gno_land_r_flip.svg"
+  "image": "/grc20/images/gno_land_r_demo_usdc.svg"
 }
 ]
