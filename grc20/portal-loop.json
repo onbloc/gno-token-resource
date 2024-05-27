@@ -78,5 +78,14 @@
     "description": "OBL is a GRC20 token issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
     "image": "/grc20/images/gno_land_r_demo_obl.svg"
+  },
+  {
+  "name": "Usd Coin",
+  "pkg_path": "gno.land/r/demo/usdc",
+  "symbol": "USDC",
+  "decimals": 6,
+  "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
+  "website_url": "https://beta.gnoswap.io",
+  "image": "/grc20/images/gno_land_r_demo_usdc.svg"
   }
 ]
