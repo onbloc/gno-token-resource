@@ -97,5 +97,14 @@
     "description": "Flippando is an on-chain memory game, creating a virtual econonmy of goods. FLIP is a GRC20 token used in this virtual economy.",
     "website_url": "https://gno.flippando.xyz/",
     "image": "/grc20/images/gno_land_r_flip.svg"
+  },
+  {
+    "name": "Usd Coin",
+    "pkg_path": "gno.land/r/demo/usdc",
+    "symbol": "USDC",
+    "decimals": 6,
+    "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
+    "website_url": "https://beta.gnoswap.io",
+    "image": "/grc20/images/gno_land_r_demo_usdc.svg"
   }
 ]
