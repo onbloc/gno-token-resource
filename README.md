@@ -7,7 +7,8 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 ## Products that use this repository
 
 - [Adena](https://adena.app/)
-- [Gnoscan](https://gnoscan.io/)
+- [GnoScan](https://gnoscan.io/)
+- [GnoSwap](https://beta.gnoswap.io/)
 
 ## How to add your token
 
