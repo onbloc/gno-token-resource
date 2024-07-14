@@ -18,5 +18,15 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
     "website_url": "https://gno.land/r/demo/wugnot",
     "image": "/grc20/images/gno_land_r_demo_wugnot.svg"
+  },
+  {
+    "name": "Gnoswap",
+    "pkg_path": "gno.land/r/gnoswap/gns",
+    "symbol": "GNS",
+    "decimals": 6,
+    "chain_id": "test4",
+    "description": "GNS is a GRC20 token issued solely for testing purposes.",
+    "website_url": "https://beta.gnoswap.io",
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
   }
 ]
