@@ -33,19 +33,20 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
      - `denom`: The denom of your token.
      - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
+     - `chain_id`: The chain ID of your token.
      - `description`: A description of your token. You can write up to 1500 letters.
      - `website_url`: The Website URL of your token.
      - `image`: The location of the image of your token.
        - Use the `svg` format and set the file's name as <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/gno-native/images` folder.
 
-4. Add the token information to `/gno-native/assets.json`
+4. Add the token information to `/gno-native/{CHAIN_ID}.json`
 
 ---
 
 ```json
 // An example with Gnoland
-// assets.json file located in /gno-native/
+// {CHAIN_ID}.json file located in /gno-native/
 [
   {
     "id": "gnot",
@@ -53,6 +54,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
     "denom": "ugnot",
     "symbol": "GNOT",
     "decimals": 6,
+    "chain_id": "test4",
     "description": "Gno.land is a layer-1 blockchain that integrates a series of cutting-edge technologies, including Tendermint2, GnoVM, the Proof-of-Contribution consensus mechanism, on-chain governance through a new DAO framework with support for sub-DAOs, and a unique licensing model that enables built-in monetization of open-source code.",
     "website_url": "https://gno.land/",
     "image": "/gno-native/images/gnot.svg"
@@ -91,25 +93,27 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
      - `pkg_path`: The package path of your GRC20 realm.
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
+     - `chain_id`: The chain ID of your token.
      - `description`: A description of your token. You can write up to 1500 letters.
      - `website_url`: The Website URL of your token.
      - `image`: The location of the image of your token.
        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/grc20/images` folder.
 
-4. Add the token information to `/grc20/assets.json`
+4. Add the token information to `/grc20/{CHAIN_ID}.json`
 
 ---
 
 ```json
 // An example with Foo
-// assets.json file located in /grc20/
+// {CHAIN_ID}.json file located in /grc20/
 [
   {
     "name": "Foo",
     "pkg_path": "gno.land/r/demo/foo20",
     "symbol": "FOO",
     "decimals": 4,
+    "chain_id": "test4",
     "description": "Foo is a test realm of GRC20",
     "website_url": "https://foo.com",
     "image": "/grc20/images/foo.svg"
@@ -155,17 +159,18 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/ibc-native/images` folder.
 
-4. Add the token information to `/ibc-native/assets.json`
+4. Add the token information to `/ibc-native/{CHAIN_ID}.json`
 
 ---
 
 ```json
 // An example with Cosmos
-// assets.json file located in /ibc-native/
+// {CHAIN_ID}.json file located in /ibc-native/
 [
   {
     "name": "Cosmos",
     "denom": "uatom",
+    "chain_id": "test4",
     "symbol": "ATOM",
     "decimals": 6,
     "description": "The ATOM token is the native token of the Cosmos Hub. In return for securing the Hub's services by staking ATOM, transaction fees and staking rewards are distributed to the Cosmos Hub.",
@@ -203,6 +208,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 
    - Required information:
      - `denom`: The denom of your token.
+     - `chain_id`: The chain ID of your token.
      - `origin_chain`: The origin chain that your token was issued from.
      - `origin_denom`: The origin denom of your token.
      - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, or erc20).
@@ -215,16 +221,17 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/ibc-tokens/images` folder.
 
-4. Add the token information to `/ibc-tokens/assets.json`
+4. Add the token information to `/ibc-tokens/{CHAIN_ID}.json`
 
 ---
 
 ```json
 // An example with Cosmos
-// assets.json file located in /ibc-tokens/
+// {CHAIN_ID}.json file located in /ibc-tokens/
 [
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "denom": "test4",
     "origin_chain": "cosmos",
     "origin_denom": "uatom",
     "origin_type": "native",
