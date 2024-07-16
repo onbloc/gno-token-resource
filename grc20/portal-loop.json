@@ -21,43 +21,43 @@
   },
   {
     "name": "Foo",
-    "pkg_path": "gno.land/r/demo/foo",
+    "pkg_path": "gno.land/r/onbloc/foo",
     "symbol": "FOO",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "Foo is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_foo.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_foo.svg"
   },
   {
     "name": "Bar",
-    "pkg_path": "gno.land/r/demo/bar",
+    "pkg_path": "gno.land/r/onbloc/bar",
     "symbol": "BAR",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "Bar is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_bar.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_bar.svg"
   },
   {
     "name": "Baz",
-    "pkg_path": "gno.land/r/demo/baz",
+    "pkg_path": "gno.land/r/onbloc/baz",
     "symbol": "BAZ",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "Baz is a GRC20 token issued solely with testing purpose.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_baz.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_baz.svg"
   },
   {
     "name": "Qux",
-    "pkg_path": "gno.land/r/demo/qux",
+    "pkg_path": "gno.land/r/onbloc/qux",
     "symbol": "QUX",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "Qux is a GRC20 token issued solely with testing purpose.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_qux.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_qux.svg"
   },
   {
     "name": "Gnoswap",
@@ -71,22 +71,22 @@
   },
   {
     "name": "Onbloc",
-    "pkg_path": "gno.land/r/demo/obl",
+    "pkg_path": "gno.land/r/onbloc/obl",
     "symbol": "OBL",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "OBL is a GRC20 token issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_obl.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_obl.svg"
   },
   {
     "name": "Usd Coin",
-    "pkg_path": "gno.land/r/demo/usdc",
+    "pkg_path": "gno.land/r/onbloc/usdc",
     "symbol": "USDC",
     "decimals": 6,
     "chain_id": "portal-loop",
     "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_demo_usdc.svg"
+    "image": "/grc20/images/gno_land_r_onbloc_usdc.svg"
   }
 ]
