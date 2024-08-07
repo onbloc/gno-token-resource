@@ -61,13 +61,13 @@
   },
   {
     "name": "Gnoswap",
-    "pkg_path": "gno.land/r/gnoswap/gns",
+    "pkg_path": "gno.land/r/gnoswap/v2/gns",
     "symbol": "GNS",
     "decimals": 6,
     "chain_id": "test4",
     "description": "GNS is a GRC20 token issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
+    "image": "/grc20/images/gno_land_r_gnoswap_v2_gns.svg"
   },
   {
     "name": "Onbloc",
