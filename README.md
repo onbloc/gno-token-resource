@@ -68,7 +68,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 ]
 ```
 
-1. Commit and push to your forked repo
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -76,7 +76,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
    git push origin <BRANCH_NAME>
    ```
 
-2. Make a pull request from your forked repo to `main`
+6. Make a pull request from your forked repo to `main`
 </details>
 
 <details>
@@ -133,7 +133,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 ]
 ```
 
-1. Commit and push to your forked repo
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -141,7 +141,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
    git push origin <BRANCH_NAME>
    ```
 
-2. Make a pull request from your forked repo to `main`
+6. Make a pull request from your forked repo to `main`
 </details>
 
 <details>
@@ -198,7 +198,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 ]
 ```
 
-1. Commit and push to your forked repo
+5. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -206,7 +206,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
    git push origin <BRANCH_NAME>
    ```
 
-2. Make a pull request from your forked repo to `main`
+6. Make a pull request from your forked repo to `main`
 </details>
 
 <details>
