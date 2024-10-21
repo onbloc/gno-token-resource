@@ -94,8 +94,12 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `chain_id`: The chain ID of your token.
-     - `description`: A description of your token. You can write up to 1500 letters.
+     - `description`: A description of your token. You can write up to 70 letters.
+     - `description_details`: A description details of your token. You can write up to 1500 letters.
      - `website_url`: The Website URL of your token.
+     - `twitter_url`: The Twitter URL of your token.
+     - `discord_url`: The Discord URL of your token.
+     - `docs_url`: The Docs URL of your token.
      - `image`: The location of the image of your token.
        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/grc20/images` folder.
@@ -115,13 +119,17 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
     "decimals": 4,
     "chain_id": "test4",
     "description": "Foo is a test realm of GRC20",
+    "description_details": "Foo is a test realm of GRC20",
     "website_url": "https://foo.com",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
     "image": "/grc20/images/foo.svg"
   }
 ]
 ```
 
-5. Commit and push to your forked repo
+1. Commit and push to your forked repo
 
    ```shell
    git add -A
@@ -129,7 +137,7 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
    git push origin <BRANCH_NAME>
    ```
 
-6. Make a pull request from your forked repo to `main`
+2. Make a pull request from your forked repo to `main`
 </details>
 
 <details>
