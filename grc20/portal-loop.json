@@ -7,6 +7,9 @@
     "chain_id": "portal-loop",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
     "website_url": "https://gno.land/r/demo/foo20",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
     "image": ""
   },
   {
@@ -17,6 +20,9 @@
     "chain_id": "portal-loop",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
     "website_url": "https://gno.land/r/demo/wugnot",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
     "image": "/grc20/images/gno_land_r_demo_wugnot.svg"
   },
   {
@@ -27,6 +33,9 @@
     "chain_id": "portal-loop",
     "description": "Foo is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoscan",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/getting-started/quick-tour",
     "image": "/grc20/images/gno_land_r_onbloc_foo.svg"
   },
   {
@@ -35,8 +44,11 @@
     "symbol": "BAR",
     "decimals": 6,
     "chain_id": "portal-loop",
-    "description": "Bar is a GRC20 token issued solely with testing purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque eu, fringilla sit amet sapien. Proin ut semper risus. Vivamus fringilla eget lectus ut faucibus. Proin vitae mollis massa. Sed bibendum tortor eget aliquam commodo. Etiam et eleifend augue. Donec molestie placerat elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Maecenas est ante, pulvinar id accumsan eget, aliquam ac turpis. Donec vulputate nunc tellus. In sit amet mattis nisl. Mauris libero quam, hendrerit dapibus scelerisque.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
     "image": "/grc20/images/gno_land_r_onbloc_bar.svg"
   },
   {
@@ -45,8 +57,11 @@
     "symbol": "BAZ",
     "decimals": 6,
     "chain_id": "portal-loop",
-    "description": "Baz is a GRC20 token issued solely with testing purpose.",
+    "description": "Adena is a friendly, open-source, non-custodial Gnoland wallet, built for Gnomes worldwide. Adena exists to power millions of realms and tokens that will flourish the Gnoland ecosystem with a quality interface, NFT & custom token support, and a seamless integration procedure.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/adenaapp",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
     "image": "/grc20/images/gno_land_r_onbloc_baz.svg"
   },
   {
@@ -55,8 +70,11 @@
     "symbol": "QUX",
     "decimals": 6,
     "chain_id": "portal-loop",
-    "description": "Qux is a GRC20 token issued solely with testing purpose.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi orci, ultrices sit amet mi eget, efficitur elementum tellus. Integer augue purus, rutrum eu pretium sit amet, varius in quam. In auctor gravida pretium.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/onblocxyz/media",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/trading",
     "image": "/grc20/images/gno_land_r_onbloc_qux.svg"
   },
   {
@@ -67,6 +85,9 @@
     "chain_id": "portal-loop",
     "description": "GNS is a GRC20 token issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io",
     "image": "/grc20/images/gno_land_r_gnoswap_v2_gns.svg"
   },
   {
@@ -75,8 +96,11 @@
     "symbol": "OBL",
     "decimals": 6,
     "chain_id": "portal-loop",
-    "description": "OBL is a GRC20 token issued solely for testing purposes.",
+    "description": "Onbloc is a leading Gnoland blockchain software company building Adena and Gnoscan to make it easy to build applications on Gnoland. Gnoland is a public blockchain initiative led by Jae Kwon, the creator of Cosmos Network and Tendermint. As an active contributor to the Gnoland ecosystem, Onbloc is committed to developing Gnoland-native dapps, operating a Gnoland validator, and investing in aspiring projects building on Gnoland.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
     "image": "/grc20/images/gno_land_r_onbloc_obl.svg"
   },
   {
@@ -87,6 +111,9 @@
     "chain_id": "portal-loop",
     "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
     "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
     "image": "/grc20/images/gno_land_r_onbloc_usdc.svg"
   }
 ]
