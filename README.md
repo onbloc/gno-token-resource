@@ -1,8 +1,8 @@
-# Gnoland Token Resources
+# gno.land Token Resources
 
-This repository is a comprehensive and up-to-date collection of information related to tokens on Gnoland, including Gno-native, GRC20, IBC-native, and IBC-tokens.
+This repository is a comprehensive and up-to-date collection of information related to tokens on gno.land, including Gno-native, GRC20, IBC-native, and IBC-tokens.
 
-As we embrace true decentralization and permissionless platforms on Gnoland, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repository. Our goal is to provide the community with the necessary resources to develop and innovate on the Gnoland blockchain, in a collaborative and open-source manner.
+As we embrace true decentralization and permissionless platforms on gno.land, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repository. Our goal is to provide the community with the necessary resources to develop and innovate on the gno.land blockchain, in a collaborative and open-source manner.
 
 ## Products that use this repository
 
@@ -48,12 +48,12 @@ As we embrace true decentralization and permissionless platforms on Gnoland, we 
 ---
 
 ```json
-// An example with Gnoland
+// An example with gno.land
 // {CHAIN_ID}.json file located in /gno-native/
 [
   {
     "id": "gnot",
-    "name": "Gnoland",
+    "name": "gno.land",
     "denom": "ugnot",
     "symbol": "GNOT",
     "decimals": 6,
