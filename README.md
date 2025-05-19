@@ -63,7 +63,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
     "twitter_url": "https://x.com/_gnoland",
     "discord_url": "https://discord.gg/CMHMzbjNxv",
     "docs_url": "https://docs.gno.land",
-    "image": "/gno-native/images/gnot.svg"
+    "image": "/gno-native/images/ugnot.svg"
   }
 ]
 ```
