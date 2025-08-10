@@ -79,7 +79,7 @@
   },
   {
     "name": "Gnoswap",
-    "pkg_path": "gno.land/r/gnoswap/v1/gns",
+    "pkg_path": "gno.land/r/gnoswap/gns",
     "symbol": "GNS",
     "decimals": 6,
     "chain_id": "test6",
@@ -88,7 +88,7 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_gnoswap_v1_gns.svg"
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
   },
   {
     "name": "Onbloc",
