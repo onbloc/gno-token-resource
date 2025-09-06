@@ -1,7 +1,7 @@
 [
   {
     "name": "Foo",
-    "pkg_path": "gno.land/r/demo/foo20",
+    "pkg_path": "gno.land/r/demo/defi/foo20",
     "symbol": "FOO",
     "decimals": 4,
     "chain_id": "test8",
@@ -14,7 +14,7 @@
   },
   {
     "name": "wrapped GNOT",
-    "pkg_path": "gno.land/r/demo/wugnot",
+    "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
     "decimals": 0,
     "chain_id": "test8",
