@@ -78,7 +78,7 @@
     "image": "/grc20/images/gno_land_r_onbloc_qux.svg"
   },
   {
-    "name": "Gnoswap",
+    "name": "GnoSwap",
     "pkg_path": "gno.land/r/gnoswap/gns",
     "symbol": "GNS",
     "decimals": 6,
