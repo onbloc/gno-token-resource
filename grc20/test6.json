@@ -27,7 +27,7 @@
   },
   {
     "name": "Foo",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/foo",
+    "pkg_path": "gno.land/r/onbloc/foo",
     "symbol": "FOO",
     "decimals": 6,
     "chain_id": "test6",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Bar",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/bar",
+    "pkg_path": "gno.land/r/onbloc/bar",
     "symbol": "BAR",
     "decimals": 6,
     "chain_id": "test6",
@@ -53,7 +53,7 @@
   },
   {
     "name": "Baz",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/baz",
+    "pkg_path": "gno.land/r/onbloc/baz",
     "symbol": "BAZ",
     "decimals": 6,
     "chain_id": "test6",
@@ -66,7 +66,7 @@
   },
   {
     "name": "Qux",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/qux",
+    "pkg_path": "gno.land/r/onbloc/qux",
     "symbol": "QUX",
     "decimals": 6,
     "chain_id": "test6",
@@ -92,7 +92,7 @@
   },
   {
     "name": "Onbloc",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/obl",
+    "pkg_path": "gno.land/r/onbloc/obl",
     "symbol": "OBL",
     "decimals": 6,
     "chain_id": "test6",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Usd Coin",
-    "pkg_path": "gno.land/r/gnoswap/v1/test_token/usdc",
+    "pkg_path": "gno.land/r/onbloc/usdc",
     "symbol": "USDC",
     "decimals": 6,
     "chain_id": "test6",
