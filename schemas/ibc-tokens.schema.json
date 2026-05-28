@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./ibc-tokens.schema.json",
+  "title": "IBC token list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "denom",
+      "chain_id",
+      "origin_chain",
+      "origin_denom",
+      "origin_type",
+      "symbol",
+      "decimals",
+      "path",
+      "channel",
+      "port"
+    ],
+    "properties": {
+      "denom": {
+        "type": "string",
+        "minLength": 1
+      },
+      "chain_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "origin_chain": {
+        "type": "string",
+        "minLength": 1
+      },
+      "origin_denom": {
+        "type": "string",
+        "minLength": 1
+      },
+      "origin_type": {
+        "type": "string",
+        "enum": [
+          "staking",
+          "native",
+          "pool",
+          "ibc",
+          "bridge",
+          "cw20",
+          "erc20"
+        ]
+      },
+      "symbol": {
+        "type": "string",
+        "minLength": 1
+      },
+      "decimals": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "path": {
+        "type": "string",
+        "minLength": 1
+      },
+      "channel": {
+        "type": "string",
+        "minLength": 1
+      },
+      "port": {
+        "type": "string",
+        "minLength": 1
+      },
+      "image": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "pattern": "^/ibc-tokens/images/[^/]+\\.svg$"
+          }
+        ]
+      }
+    }
+  }
+}
