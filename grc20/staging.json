@@ -1,6 +1,7 @@
 [
   {
     "name": "Foo",
+    "token_path": "gno.land/r/demo/foo20.FOO",
     "pkg_path": "gno.land/r/demo/foo20",
     "symbol": "FOO",
     "decimals": 4,
@@ -14,6 +15,7 @@
   },
   {
     "name": "wrapped GNOT",
+    "token_path": "gno.land/r/demo/wugnot.wugnot",
     "pkg_path": "gno.land/r/demo/wugnot",
     "symbol": "wugnot",
     "decimals": 0,
@@ -27,6 +29,7 @@
   },
   {
     "name": "Foo",
+    "token_path": "gno.land/r/gnoswap/test_token/foo.FOO",
     "pkg_path": "gno.land/r/gnoswap/test_token/foo",
     "symbol": "FOO",
     "decimals": 6,
@@ -40,6 +43,7 @@
   },
   {
     "name": "Bar",
+    "token_path": "gno.land/r/gnoswap/test_token/bar.BAR",
     "pkg_path": "gno.land/r/gnoswap/test_token/bar",
     "symbol": "BAR",
     "decimals": 6,
@@ -53,6 +57,7 @@
   },
   {
     "name": "Baz",
+    "token_path": "gno.land/r/gnoswap/test_token/baz.BAZ",
     "pkg_path": "gno.land/r/gnoswap/test_token/baz",
     "symbol": "BAZ",
     "decimals": 6,
@@ -66,6 +71,7 @@
   },
   {
     "name": "Qux",
+    "token_path": "gno.land/r/gnoswap/test_token/qux.QUX",
     "pkg_path": "gno.land/r/gnoswap/test_token/qux",
     "symbol": "QUX",
     "decimals": 6,
@@ -79,6 +85,7 @@
   },
   {
     "name": "GnoSwap",
+    "token_path": "gno.land/r/gnoswap/gns.GNS",
     "pkg_path": "gno.land/r/gnoswap/gns",
     "symbol": "GNS",
     "decimals": 6,
@@ -92,6 +99,7 @@
   },
   {
     "name": "Onbloc",
+    "token_path": "gno.land/r/gnoswap/test_token/obl.OBL",
     "pkg_path": "gno.land/r/gnoswap/test_token/obl",
     "symbol": "OBL",
     "decimals": 6,
@@ -105,6 +113,7 @@
   },
   {
     "name": "Usd Coin",
+    "token_path": "gno.land/r/gnoswap/test_token/usdc.USDC",
     "pkg_path": "gno.land/r/gnoswap/test_token/usdc",
     "symbol": "USDC",
     "decimals": 6,
