@@ -152,5 +152,33 @@
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
     "image": "/grc20/images/test_dai.svg"
+  },
+  {
+    "name": "Sepolia Ether",
+    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.SepoliaETH",
+    "pkg_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
+    "symbol": "SepoliaETH",
+    "decimals": 6,
+    "chain_id": "topaz-1",
+    "description": "",
+    "website_url": "https://topaz.testnets.gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/gno_land_r_onbloc_ibc_union_apps_ucs03_zkgm_sepoliaeth.svg"
+  },
+  {
+    "name": "Tether USD",
+    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.USDT",
+    "pkg_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
+    "symbol": "USDT",
+    "decimals": 6,
+    "chain_id": "topaz-1",
+    "description": "",
+    "website_url": "https://topaz.testnets.gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/gno_land_r_onbloc_ibc_union_apps_ucs03_zkgm_usdt.svg"
   }
 ]
