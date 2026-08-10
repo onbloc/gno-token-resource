@@ -56,7 +56,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
     "denom": "ugnot",
     "symbol": "GNOT",
     "decimals": 6,
-    "chain_id": "test11",
+    "chain_id": "topaz-1",
     "description": "Gno.land is a layer-1 blockchain that integrates a series of cutting-edge technologies, including Tendermint2, GnoVM, the Proof-of-Contribution consensus mechanism, on-chain governance through a new DAO framework with support for sub-DAOs, and a unique licensing model that enables built-in monetization of open-source code.",
     "website_url": "https://gno.land/",
     "twitter_url": "https://x.com/_gnoland",
@@ -94,6 +94,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 3. Add information about your token to be displayed
    - Required information:
      - `name`: The name of your token to be displayed. Please capitalize the first letter.
+     - `token_path`: The token path of your GRC20 realm (e.g., `gno.land/r/demo/foo20.FOO`).
      - `pkg_path`: The package path of your GRC20 realm.
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
@@ -117,10 +118,11 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 [
   {
     "name": "Foo",
+    "token_path": "gno.land/r/demo/foo20.FOO",
     "pkg_path": "gno.land/r/demo/foo20",
     "symbol": "FOO",
     "decimals": 4,
-    "chain_id": "test11",
+    "chain_id": "topaz-1",
     "description": "Foo is a test realm of GRC20",
     "website_url": "https://foo.com",
     "twitter_url": "",
@@ -158,6 +160,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 3. Add information about your token to be displayed
     - Required information:
       - `name`: The name of your token to be displayed. Please capitalize the first letter.
+      - `token_path`: The token path in IBC format (e.g., `{IBC Contract Path}.{IBC Denom}`).
       - `denom`: The denom of your token.
       - `chain_id`: The chain ID of your token.
       - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
@@ -182,9 +185,10 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 [
   {
     "name": "Cosmos",
+    "token_path": "transfer/channel-0/uatom",
     "denom": "uatom",
     "chain": "cosmoshub",
-    "chain_id": "test11",
+    "chain_id": "topaz-1",
     "symbol": "ATOM",
     "decimals": 6,
     "description": "The ATOM token is the native token of the Cosmos Hub. In return for securing the Hub's services by staking ATOM, transaction fees and staking rewards are distributed to the Cosmos Hub.",
@@ -223,6 +227,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 
 3. Add information about your token to be displayed
    - Required information:
+     - `token_path`: The full IBC token path (e.g., `transfer/channel-0/uatom`).
      - `denom`: The denom of your token.
      - `chain_id`: The chain ID of your token.
      - `origin_chain`: The origin chain that your token was issued from.
@@ -246,8 +251,9 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 // {CHAIN_ID}.json file located in /ibc-tokens/
 [
   {
+    "token_path": "gno.land/r/onbloc/ibc/union/zkgm.ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-    "chain_id": "test11",
+    "chain_id": "topaz-1",
     "origin_chain": "cosmos",
     "origin_denom": "uatom",
     "origin_type": "native",
