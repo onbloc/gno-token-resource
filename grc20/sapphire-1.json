@@ -180,5 +180,47 @@
     "discord_url": "",
     "docs_url": "",
     "image": "/grc20/images/gno_land_r_onbloc_ibc_union_apps_ucs03_zkgm_usdt.svg"
+  },
+  {
+    "name": "Tardigrades",
+    "token_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22.TARDI",
+    "pkg_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22",
+    "symbol": "TARDI",
+    "decimals": 0,
+    "chain_id": "sapphire-1",
+    "description": "Tardigrades ($TARDI) launched on gnomemepad.",
+    "website_url": "https://gnomemepad-sapphire.netlify.app",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/r_g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr_gnomemepad_padv22_tardi.svg"
+  },
+  {
+    "name": "Gnomies",
+    "token_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22.GNOMIES",
+    "pkg_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22",
+    "symbol": "GNOMIES",
+    "decimals": 0,
+    "chain_id": "sapphire-1",
+    "description": "Gnomies ($GNOMIES) launched on gnomemepad.",
+    "website_url": "https://gnomemepad-sapphire.netlify.app",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/r_g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr_gnomemepad_padv22_gnomies.svg"
+  },
+  {
+    "name": "Jaekwon",
+    "token_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22.JAE",
+    "pkg_path": "gno.land/r/g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr/gnomemepad/padv22",
+    "symbol": "JAE",
+    "decimals": 0,
+    "chain_id": "sapphire-1",
+    "description": "Jaekwon ($JAE) launched on gnomemepad.",
+    "website_url": "https://gnomemepad-sapphire.netlify.app",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/r_g1mv0052e7r6s09f5t9xsqf00nj3tqsgt9dg52jr_gnomemepad_padv22_jae.svg"
   }
 ]
