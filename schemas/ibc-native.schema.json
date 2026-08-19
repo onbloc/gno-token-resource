@@ -8,6 +8,7 @@
     "additionalProperties": false,
     "required": [
       "name",
+      "token_path",
       "denom",
       "chain_id",
       "symbol",
@@ -21,6 +22,10 @@
     ],
     "properties": {
       "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "token_path": {
         "type": "string",
         "minLength": 1
       },
@@ -46,7 +51,8 @@
       },
       "description": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "maxLength": 1500
       },
       "website_url": {
         "type": "string",

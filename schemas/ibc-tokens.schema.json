@@ -7,6 +7,7 @@
     "type": "object",
     "additionalProperties": false,
     "required": [
+      "token_path",
       "denom",
       "chain_id",
       "origin_chain",
@@ -14,11 +15,16 @@
       "origin_type",
       "symbol",
       "decimals",
+      "description",
       "path",
       "channel",
       "port"
     ],
     "properties": {
+      "token_path": {
+        "type": "string",
+        "minLength": 1
+      },
       "denom": {
         "type": "string",
         "minLength": 1
@@ -54,6 +60,11 @@
       "decimals": {
         "type": "integer",
         "minimum": 0
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1500
       },
       "path": {
         "type": "string",
