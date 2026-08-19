@@ -1,3 +1,6 @@
+# Validates token resource JSON files against the schemas in schemas/.
+# Runs on pull requests and pushes to main. See docs/json-validation-guidelines.md
+# for the enforced rules and how to run the same validation locally.
 name: Validate JSON resources
 
 on:

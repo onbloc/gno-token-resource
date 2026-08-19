@@ -15,6 +15,7 @@ This repository now validates token resource JSON files with JSON Schema.
 - Each token entry must use the expected object shape for its directory.
 - Unknown fields are rejected.
 - `decimals` must be a non-negative integer.
+- `description` must not exceed 1,500 characters.
 - URL fields accept either a valid URI or an empty string.
 - Image paths must point to the matching directory and use `.svg`.
 - `ibc-tokens.origin_type` is limited to `staking`, `native`, `pool`, `ibc`, `bridge`, `cw20`, or `erc20`.
@@ -25,9 +26,12 @@ The first version focuses on structure and required fields without breaking the 
 
 - The filename does not need to match every entry's `chain_id`.
 - Cross-file uniqueness is not checked.
-- Description length is not capped in schema yet.
 
 Those rules can be added later after the existing data is normalized.
+
+## How validation runs
+
+A GitHub Action (`.github/workflows/validate-json.yml`) runs `./scripts/validate-json.sh` on every pull request and on pushes to `main`, so contributor changes are checked before merge.
 
 ## Run validation locally
 

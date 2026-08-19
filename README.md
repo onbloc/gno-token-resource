@@ -33,7 +33,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
      - `symbol`: The abbreviation of your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `chain_id`: The chain ID of your token.
-     - `description`: A description of your token.
+     - `description`: A description of your token. You can write up to 1,500 letters.
      - `website_url`: The Website URL of your token.
      - `twitter_url`: The Twitter URL of your token.
      - `discord_url`: The Discord URL of your token.
@@ -99,7 +99,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
      - `decimals`: The decimals of your token.
      - `chain_id`: The chain ID of your token.
-     - `description`: A description of your token.
+     - `description`: A description of your token. You can write up to 1,500 letters.
      - `website_url`: The Website URL of your token.
      - `twitter_url`: The Twitter URL of your token.
      - `discord_url`: The Discord URL of your token.
@@ -165,7 +165,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
       - `chain_id`: The chain ID of your token.
       - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
       - `decimals`: The decimals of your token.
-      - `description`: A description of your token.
+      - `description`: A description of your token. You can write up to 1,500 letters.
       - `website_url`: The Website URL of your token.
       - `twitter_url`: The Twitter URL of your token.
       - `discord_url`: The Discord URL of your token.
@@ -233,9 +233,10 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
      - `origin_chain`: The origin chain that your token was issued from.
      - `origin_denom`: The origin denom of your token.
      - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, or erc20).
-     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
-     - `decimals`: The decimals of your token.
-     - `path`: The path way that your IBC token has traveled through from the origin chain.
+      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
+      - `decimals`: The decimals of your token.
+      - `description`: A description of your token. You can write up to 1,500 letters.
+      - `path`: The path way that your IBC token has traveled through from the origin chain.
       - `channel`: The channel of the chain that your IBC token is currently on.
       - `port`: The port of your IBC token.
       - `image` (optional): The location of the image of your token.
@@ -259,6 +260,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
     "origin_type": "native",
     "symbol": "ATOM",
     "decimals": 6,
+    "description": "The ATOM token is the native token of the Cosmos Hub.",
     "path": "cosmos>osmosis",
     "channel": "channel-0",
     "port": "transfer",
@@ -280,23 +282,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 
 ## JSON validation
 
-This repository validates token resource JSON files in pull requests and on pushes to `main`.
-
-- GitHub Action: `.github/workflows/validate-json.yml`
-- Local validation: `./scripts/validate-json.sh`
-- Schema and rule details: [`docs/json-validation-guidelines.md`](./docs/json-validation-guidelines.md)
-
-### Schema coverage
-
-- `gno-native/*.json`
-- `grc20/*.json`
-- `ibc-native/*.json`
-- `ibc-tokens/*.json`
-
-### Notes
-
-- Validation currently focuses on JSON structure, required fields, URLs, and image path format when an image path is provided.
-- Filename and `chain_id` consistency is not enforced yet because some existing files still need normalization.
+Token resource JSON files are validated against JSON schemas on every pull request and push to `main`. See [`docs/json-validation-guidelines.md`](./docs/json-validation-guidelines.md) for the enforced rules, schema coverage, and how to run the validation locally.
 
 ## Disclaimer
 
