@@ -15,7 +15,7 @@ This repository now validates token resource JSON files with JSON Schema.
 - Each token entry must use the expected object shape for its directory.
 - Unknown fields are rejected.
 - `decimals` must be a non-negative integer.
-- `description` must not exceed 1,500 characters.
+- `description` must be non-empty and must not exceed 1,500 characters.
 - URL fields accept either a valid URI or an empty string.
 - Image paths must point to the matching directory and use `.svg`.
 - `ibc-tokens.origin_type` is limited to `staking`, `native`, `pool`, `ibc`, `bridge`, `cw20`, or `erc20`.
