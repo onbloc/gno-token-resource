@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./gno-native.schema.json",
+  "title": "Gno-native token list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "denom",
+      "symbol",
+      "decimals",
+      "chain_id",
+      "description",
+      "website_url",
+      "twitter_url",
+      "discord_url",
+      "docs_url",
+      "image"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "denom": {
+        "type": "string",
+        "minLength": 1
+      },
+      "symbol": {
+        "type": "string",
+        "minLength": 1
+      },
+      "decimals": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "chain_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1500
+      },
+      "website_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "twitter_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "discord_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "docs_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "image": {
+        "type": "string",
+        "pattern": "^/gno-native/images/[^/]+\\.svg$"
+      }
+    }
+  }
+}

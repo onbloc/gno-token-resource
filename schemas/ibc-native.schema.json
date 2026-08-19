@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./ibc-native.schema.json",
+  "title": "IBC-native token list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "token_path",
+      "denom",
+      "chain_id",
+      "symbol",
+      "decimals",
+      "description",
+      "website_url",
+      "twitter_url",
+      "discord_url",
+      "docs_url",
+      "image"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "token_path": {
+        "type": "string",
+        "minLength": 1
+      },
+      "denom": {
+        "type": "string",
+        "minLength": 1
+      },
+      "chain": {
+        "type": "string",
+        "minLength": 1
+      },
+      "chain_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "symbol": {
+        "type": "string",
+        "minLength": 1
+      },
+      "decimals": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1500
+      },
+      "website_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "twitter_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "discord_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "docs_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "image": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "pattern": "^/ibc-native/images/[^/]+\\.svg$"
+          }
+        ]
+      }
+    }
+  }
+}
