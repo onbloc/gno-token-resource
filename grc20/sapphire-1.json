@@ -155,9 +155,9 @@
   },
   {
     "name": "Ether",
-    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.ETH",
+    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.ETH2",
     "pkg_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
-    "symbol": "ETH",
+    "symbol": "ETH2",
     "decimals": 6,
     "chain_id": "sapphire-1",
     "description": "",
@@ -169,9 +169,9 @@
   },
   {
     "name": "Tether USD",
-    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.USDT",
+    "token_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm.USDT2",
     "pkg_path": "gno.land/r/onbloc/ibc/union/apps/ucs03_zkgm",
-    "symbol": "USDT",
+    "symbol": "USDT2",
     "decimals": 6,
     "chain_id": "sapphire-1",
     "description": "",
