@@ -1,6 +1,7 @@
 [
   {
     "name": "Foo",
+    "token_path": "gno.land/r/demo/defi/foo20.FOO",
     "pkg_path": "gno.land/r/demo/defi/foo20",
     "symbol": "FOO",
     "decimals": 4,
@@ -14,6 +15,7 @@
   },
   {
     "name": "wrapped GNOT",
+    "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
     "decimals": 0,
@@ -27,6 +29,7 @@
   },
   {
     "name": "Bitcoin",
+    "token_path": "gno.land/r/gnoswap/test_token/test_btc.BTC",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_btc",
     "symbol": "BTC",
     "decimals": 8,
@@ -40,6 +43,7 @@
   },
   {
     "name": "Ethereum",
+    "token_path": "gno.land/r/gnoswap/test_token/test_eth.ETH",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_eth",
     "symbol": "ETH",
     "decimals": 6,
@@ -53,6 +57,7 @@
   },
   {
     "name": "AtomOne",
+    "token_path": "gno.land/r/gnoswap/test_token/test_atone.ATONE",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_atone",
     "symbol": "ATONE",
     "decimals": 6,
@@ -66,6 +71,7 @@
   },
   {
     "name": "Photon",
+    "token_path": "gno.land/r/gnoswap/test_token/test_photon.PHOTON",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_photon",
     "symbol": "PHOTON",
     "decimals": 6,
@@ -79,6 +85,7 @@
   },
   {
     "name": "GnoSwap",
+    "token_path": "gno.land/r/gnoswap/gns.GNS",
     "pkg_path": "gno.land/r/gnoswap/gns",
     "symbol": "GNS",
     "decimals": 6,
@@ -92,6 +99,7 @@
   },
   {
     "name": "Cosmos",
+    "token_path": "gno.land/r/gnoswap/test_token/test_atom.ATOM",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_atom",
     "symbol": "ATOM",
     "decimals": 6,
@@ -105,6 +113,7 @@
   },
   {
     "name": "Solana",
+    "token_path": "gno.land/r/gnoswap/test_token/test_sol.SOL",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_sol",
     "symbol": "SOL",
     "decimals": 9,
@@ -118,6 +127,7 @@
   },
   {
     "name": "Tron",
+    "token_path": "gno.land/r/gnoswap/test_token/test_trx.TRX",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_trx",
     "symbol": "TRX",
     "decimals": 6,
@@ -131,6 +141,7 @@
   },
   {
     "name": "Usd Coin",
+    "token_path": "gno.land/r/gnoswap/test_token/test_usdc.USDC",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_usdc",
     "symbol": "USDC",
     "decimals": 6,
@@ -144,6 +155,7 @@
   },
   {
     "name": "Tether",
+    "token_path": "gno.land/r/gnoswap/test_token/test_usdt.USDT",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_usdt",
     "symbol": "USDT",
     "decimals": 6,
@@ -157,6 +169,7 @@
   },
   {
     "name": "Dai",
+    "token_path": "gno.land/r/gnoswap/test_token/test_dai.DAI",
     "pkg_path": "gno.land/r/gnoswap/test_token/test_dai",
     "symbol": "DAI",
     "decimals": 6,

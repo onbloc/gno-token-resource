@@ -104,7 +104,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
      - `twitter_url`: The Twitter URL of your token.
      - `discord_url`: The Discord URL of your token.
      - `docs_url`: The Docs URL of your token.
-     - `image`: The location of the image of your token.
+     - `image` (optional): The location of the image of your token.
        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
        - Add the image file in `/grc20/images` folder.
 
@@ -158,21 +158,22 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
    ```
 
 3. Add information about your token to be displayed
-   - Required information:
-     - `name`: The name of your token to be displayed. Please capitalize the first letter.
-     - `token_path`: The token path in IBC format (e.g., `{IBC Contract Path}.{IBC Denom}`).
-     - `denom`: The denom of your token.
-     - `chain`: The origin chain that the token was issued from.
-     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
-     - `decimals`: The decimals of your token.
-     - `description`: A description of your token. You can write up to 1,500 letters.
-     - `website_url`: The Website URL of your token.
-     - `twitter_url`: The Twitter URL of your token.
-     - `discord_url`: The Discord URL of your token.
-     - `docs_url`: The Docs URL of your token.
-     - `image`: The location of the image of your token.
-       - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
-       - Add the image file in `/ibc-native/images` folder.
+    - Required information:
+      - `name`: The name of your token to be displayed. Please capitalize the first letter.
+      - `token_path`: The token path in IBC format (e.g., `{IBC Contract Path}.{IBC Denom}`).
+      - `denom`: The denom of your token.
+      - `chain_id`: The chain ID of your token.
+      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
+      - `decimals`: The decimals of your token.
+      - `description`: A description of your token. You can write up to 1,500 letters.
+      - `website_url`: The Website URL of your token.
+      - `twitter_url`: The Twitter URL of your token.
+      - `discord_url`: The Discord URL of your token.
+      - `docs_url`: The Docs URL of your token.
+      - `image` (optional): The location of the image of your token.
+        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
+        - Add the image file in `/ibc-native/images` folder.
+      - `chain` (optional): The origin chain that the token was issued from.
 
 4. Add the token information to `/ibc-native/{CHAIN_ID}.json`
 
@@ -186,6 +187,7 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
     "name": "Cosmos",
     "token_path": "transfer/channel-0/uatom",
     "denom": "uatom",
+    "chain": "cosmoshub",
     "chain_id": "topaz-1",
     "symbol": "ATOM",
     "decimals": 6,
@@ -231,14 +233,15 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
      - `origin_chain`: The origin chain that your token was issued from.
      - `origin_denom`: The origin denom of your token.
      - `origin_type`: The origin type of your token (staking, native, pool, ibc, bridge, cw20, or erc20).
-     - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
-     - `decimals`: The decimals of your token.
-     - `path`: The path way that your IBC token has traveled through from the origin chain.
-     - `channel`: The channel of the chain that your IBC token is currently on.
-     - `port`: The port of your IBC token.
-     - `image`: The location of the image of your token.
-       - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
-       - Add the image file in `/ibc-tokens/images` folder.
+      - `symbol`: The abbreviation your token's name, AKA the ticker. Please capitalize all letters.
+      - `decimals`: The decimals of your token.
+      - `description`: A description of your token. You can write up to 1,500 letters.
+      - `path`: The path way that your IBC token has traveled through from the origin chain.
+      - `channel`: The channel of the chain that your IBC token is currently on.
+      - `port`: The port of your IBC token.
+      - `image` (optional): The location of the image of your token.
+        - Use the `svg` format and set the file's name to <YOUR-TOKEN-SYMBOL.svg>
+        - Add the image file in `/ibc-tokens/images` folder.
 
 4. Add the token information to `/ibc-tokens/{CHAIN_ID}.json`
 
@@ -257,10 +260,11 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
     "origin_type": "native",
     "symbol": "ATOM",
     "decimals": 6,
-    "path": "cosmos>osmosis", //The IBC Atom token is on the Osmosis chain
-    "channel": "channel-0", //A channel of the Osmosis chain
+    "description": "The ATOM token is the native token of the Cosmos Hub.",
+    "path": "cosmos>osmosis",
+    "channel": "channel-0",
     "port": "transfer",
-    "image": "/ibc-tokens/images/atom.svg" //Optional
+    "image": "/ibc-tokens/images/atom.svg"
   }
 ]
 ```
@@ -275,6 +279,10 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 
 6. Make a pull request from your forked repo to `main`
 </details>
+
+## JSON validation
+
+Token resource JSON files are validated against JSON schemas on every pull request and push to `main`. See [`docs/json-validation-guidelines.md`](./docs/json-validation-guidelines.md) for the enforced rules, schema coverage, and how to run the validation locally.
 
 ## Disclaimer
 
