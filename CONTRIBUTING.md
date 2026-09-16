@@ -264,4 +264,4 @@
 
 ## Validate your changes
 
-Before opening a pull request, follow the [JSON validation guidelines](./docs/json-validation-guidelines.md) and run the local validation commands.
+CI validates all token resource JSON files against their directory-specific schemas on every pull request and push to `main`. Before opening a pull request, follow the [JSON validation guidelines](./docs/json-validation-guidelines.md) and run the validation locally.
