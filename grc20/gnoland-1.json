@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "wrapped GNOT",
+    "token_path": "gno.land/r/gnoland/wugnot.wugnot",
+    "pkg_path": "gno.land/r/gnoland/wugnot",
+    "symbol": "wugnot",
+    "decimals": 0,
+    "chain_id": "gnoland-1",
+    "description": "",
+    "website_url": "https://gno.land/r/gnoland/wugnot",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "https://gno.land/r/gnoland/wugnot",
+    "image": "/grc20/images/gno_land_r_demo_wugnot.svg"
+  },
+  {
+    "name": "GnoSwap",
+    "token_path": "gno.land/r/gnoswap/gns.GNS",
+    "pkg_path": "gno.land/r/gnoswap/gns",
+    "symbol": "GNS",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "",
+    "website_url": "https://beta.gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io",
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
+  }
+]
