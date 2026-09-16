@@ -2,8 +2,6 @@
 
 ## How to add your token
 
-### GRC20
-
 1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
 
