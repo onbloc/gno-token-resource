@@ -1,6 +1,6 @@
 # Gno.land Token Resources
 
-This repository is a comprehensive and up-to-date collection of information related to tokens on gno.land, including Gno-native, GRC20, IBC-native, and IBC-tokens.
+This repository is a comprehensive and up-to-date collection of information about Gno-native and GRC20 tokens on Gno.land.
 
 As we embrace true decentralization and permissionless platforms on gno.land, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repository. Our goal is to provide the community with the necessary resources to develop and innovate on the gno.land blockchain, in a collaborative and open-source manner.
 

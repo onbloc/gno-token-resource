@@ -13,7 +13,5 @@ fi
 
 check-jsonschema --schemafile "$ROOT_DIR/schemas/gno-native.schema.json" "$ROOT_DIR"/gno-native/*.json
 check-jsonschema --schemafile "$ROOT_DIR/schemas/grc20.schema.json" "$ROOT_DIR"/grc20/*.json
-check-jsonschema --schemafile "$ROOT_DIR/schemas/ibc-native.schema.json" "$ROOT_DIR"/ibc-native/*.json
-check-jsonschema --schemafile "$ROOT_DIR/schemas/ibc-tokens.schema.json" "$ROOT_DIR"/ibc-tokens/*.json
 
 printf 'All JSON files match their schemas.\n'

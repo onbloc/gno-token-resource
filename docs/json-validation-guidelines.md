@@ -6,8 +6,6 @@ This repository now validates token resource JSON files with JSON Schema.
 
 - `gno-native/*.json` → `schemas/gno-native.schema.json`
 - `grc20/*.json` → `schemas/grc20.schema.json`
-- `ibc-native/*.json` → `schemas/ibc-native.schema.json`
-- `ibc-tokens/*.json` → `schemas/ibc-tokens.schema.json`
 
 ## What is enforced
 
@@ -18,7 +16,6 @@ This repository now validates token resource JSON files with JSON Schema.
 - `description` must be non-empty and must not exceed 1,500 characters.
 - URL fields accept either a valid URI or an empty string.
 - Image paths must point to the matching directory and use `.svg`.
-- `ibc-tokens.origin_type` is limited to `staking`, `native`, `pool`, `ibc`, `bridge`, `cw20`, or `erc20`.
 
 ## What is intentionally not enforced yet
 
@@ -47,6 +44,6 @@ If your Python is externally managed, install the CLI with `uv tool install chec
 When you add a new required field or change a JSON shape:
 
 1. Update the matching schema in `schemas/`.
-2. Update the contributor guidance in `README.md`.
+2. Update the contributor guidance in `CONTRIBUTING.md`.
 3. Run `./scripts/validate-json.sh` locally.
 4. Confirm the GitHub Action passes in your pull request.
