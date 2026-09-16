@@ -1,4 +1,4 @@
-# gno.land Token Resources
+# Gno.land Token Resources
 
 This repository is a comprehensive and up-to-date collection of information related to tokens on gno.land, including Gno-native, GRC20, IBC-native, and IBC-tokens.
 
@@ -13,10 +13,6 @@ As we embrace true decentralization and permissionless platforms on gno.land, we
 ## How to add your token
 
 See the [Contributing Guide](./CONTRIBUTING.md) for instructions on adding token resources and validating your changes.
-
-## JSON validation
-
-Token resource JSON files are validated against JSON schemas on every pull request and push to `main`. See [`docs/json-validation-guidelines.md`](./docs/json-validation-guidelines.md) for the enforced rules, schema coverage, and how to run the validation locally.
 
 ## Disclaimer
 

@@ -2,8 +2,7 @@
 
 ## How to add your token
 
-<details>
-  <summary><h2 style='display: inline; font-size: 16px'>Gno-native</h2></summary>
+### Gno-native
 
 1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
@@ -66,10 +65,8 @@
    ```
 
 6. Make a pull request from your forked repo to `main`
-</details>
 
-<details>
-  <summary><h2 style='display: inline; font-size: 16px'>GRC20</h2></summary>
+### GRC20
 
 1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
@@ -132,10 +129,8 @@
    ```
 
 6. Make a pull request from your forked repo to `main`
-</details>
 
-<details>
-  <summary><h2 style='display: inline; font-size: 16px'>IBC-native</h2></summary>
+### IBC-native
 
 1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
@@ -200,10 +195,8 @@
    ```
 
 6. Make a pull request from your forked repo to `main`
-</details>
 
-<details>
-  <summary><h2 style='display: inline; font-size: 16px'>IBC-tokens</h2></summary>
+### IBC-tokens
 
 1. Fork this repo to your own GitHub account
 2. Clone your fork and create a new branch
@@ -268,7 +261,6 @@
    ```
 
 6. Make a pull request from your forked repo to `main`
-</details>
 
 ## Validate your changes
 
