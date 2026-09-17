@@ -11,7 +11,33 @@
     "twitter_url": "",
     "discord_url": "",
     "docs_url": "",
-    "image": ""
+    "image": "",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "wrapped GNOT",
@@ -25,7 +51,33 @@
     "twitter_url": "",
     "discord_url": "",
     "docs_url": "",
-    "image": "/grc20/images/gno_land_r_demo_wugnot.svg"
+    "image": "/grc20/images/gno_land_r_demo_wugnot.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Bitcoin",
@@ -39,7 +91,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_btc.svg"
+    "image": "/grc20/images/test_btc.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "AtomOne",
@@ -53,7 +131,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_atone.svg"
+    "image": "/grc20/images/test_atone.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Photon",
@@ -67,7 +171,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/trading",
-    "image": "/grc20/images/test_photon.svg"
+    "image": "/grc20/images/test_photon.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "GnoSwap",
@@ -81,7 +211,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Cosmos",
@@ -95,7 +251,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_atom.svg"
+    "image": "/grc20/images/test_atom.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Solana",
@@ -109,7 +291,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_sol.svg"
+    "image": "/grc20/images/test_sol.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Tron",
@@ -123,7 +331,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_trx.svg"
+    "image": "/grc20/images/test_trx.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Usd Coin",
@@ -137,7 +371,33 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_usdc.svg"
+    "image": "/grc20/images/test_usdc.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "Dai",
@@ -151,6 +411,32 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io/user-guide/getting-started",
-    "image": "/grc20/images/test_dai.svg"
+    "image": "/grc20/images/test_dai.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   }
 ]

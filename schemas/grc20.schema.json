@@ -104,6 +104,175 @@
             "pattern": "^/grc20/images/[^/]+\\.svg$"
           }
         ]
+      },
+      "routes": {
+        "$ref": "#/$defs/routes"
+      }
+    }
+  },
+  "$defs": {
+    "routeArg": {
+      "description": "A single positional argument. Either one of the defined placeholders, a literal escaped with a leading '$$', or any literal that does not start with '$'.",
+      "type": "string",
+      "minLength": 1,
+      "anyOf": [
+        {
+          "enum": [
+            "$to",
+            "$from",
+            "$spender",
+            "$owner",
+            "$amount"
+          ]
+        },
+        {
+          "pattern": "^\\$\\$"
+        },
+        {
+          "pattern": "^[^$]"
+        }
+      ]
+    },
+    "routeFunc": {
+      "description": "One callable exported function on the token realm.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "args"
+      ],
+      "properties": {
+        "name": {
+          "description": "Exported function name on pkg_path.",
+          "type": "string",
+          "pattern": "^[A-Z][A-Za-z0-9_]*$"
+        },
+        "args": {
+          "description": "Full positional argument list excluding the leading 'cur realm', in declaration order.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/routeArg"
+          }
+        }
+      }
+    },
+    "exactlyOneTo": {
+      "properties": {
+        "args": {
+          "contains": {
+            "const": "$to"
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    "exactlyOneFrom": {
+      "properties": {
+        "args": {
+          "contains": {
+            "const": "$from"
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    "exactlyOneSpender": {
+      "properties": {
+        "args": {
+          "contains": {
+            "const": "$spender"
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    "exactlyOneOwner": {
+      "properties": {
+        "args": {
+          "contains": {
+            "const": "$owner"
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    "exactlyOneAmount": {
+      "properties": {
+        "args": {
+          "contains": {
+            "const": "$amount"
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    "routes": {
+      "description": "Optional direct-MsgCall routing metadata. Absent means consumers fall back to MsgRun via grc20reg.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "funcs"
+      ],
+      "properties": {
+        "funcs": {
+          "description": "Map of operation name to call shape. A missing operation is a deliberate declaration that the realm does not expose it, not an omission.",
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/routeFunc"
+          },
+          "properties": {
+            "transfer": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/routeFunc"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneTo"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneAmount"
+                }
+              ]
+            },
+            "approve": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/routeFunc"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneSpender"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneAmount"
+                }
+              ]
+            },
+            "transfer_from": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/routeFunc"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneFrom"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneTo"
+                },
+                {
+                  "$ref": "#/$defs/exactlyOneAmount"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
