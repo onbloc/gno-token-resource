@@ -11,7 +11,33 @@
     "twitter_url": "",
     "discord_url": "",
     "docs_url": "https://gno.land/r/gnoland/wugnot",
-    "image": "/grc20/images/gno_land_r_demo_wugnot.svg"
+    "image": "/grc20/images/gno_land_r_demo_wugnot.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "GnoSwap",
@@ -25,11 +51,37 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io",
-    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   },
   {
     "name": "XGNS",
-    "token_path": "gno.land/r/gnoswap/gov/xgns",
+    "token_path": "gno.land/r/gnoswap/gov/xgns.xGNS",
     "pkg_path": "gno.land/r/gnoswap/gov/xgns",
     "symbol": "xGNS",
     "decimals": 6,
@@ -39,6 +91,9 @@
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://gno.land/r/gnoswap/gov/xgns",
-    "image": "/grc20/images/gno_land_r_gnoswap_gov_xgns.svg"
+    "image": "/grc20/images/gno_land_r_gnoswap_gov_xgns.svg",
+    "routes": {
+      "funcs": {}
+    }
   }
 ]
