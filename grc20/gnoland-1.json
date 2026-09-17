@@ -1,6 +1,6 @@
 [
   {
-    "name": "wrapped GNOT",
+    "name": "wGNOT",
     "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
@@ -34,7 +34,7 @@
     "symbol": "xGNS",
     "decimals": 6,
     "chain_id": "gnoland-1",
-    "description": "xGNS is a non-transferable receipt token representing GNS staked through GnoSwap governance.",
+    "description": "xGNS is a non-transferable governance token issued 1:1 to users who stake GNS in the single-token staking pool, which serves as the voting-power escrow for GnoSwap Governance. The amount of xGNS a user holds equals the amount of GNS they have staked.",
     "website_url": "https://gnoswap.io",
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
