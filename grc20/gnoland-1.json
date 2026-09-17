@@ -26,5 +26,19 @@
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io",
     "image": "/grc20/images/gno_land_r_gnoswap_gns.svg"
+  },
+  {
+    "name": "XGNS",
+    "token_path": "gno.land/r/gnoswap/gov/xgns",
+    "pkg_path": "gno.land/r/gnoswap/gov/xgns",
+    "symbol": "xGNS",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "xGNS is a non-transferable receipt token representing GNS staked through GnoSwap governance.",
+    "website_url": "https://gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://gno.land/r/gnoswap/gov/xgns",
+    "image": "/grc20/images/gno_land_r_gnoswap_gov_xgns.svg"
   }
 ]
