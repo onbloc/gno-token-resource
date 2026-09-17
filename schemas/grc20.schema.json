@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./grc20.schema.json",
+  "title": "GRC20 token list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "token_path",
+      "pkg_path",
+      "symbol",
+      "decimals",
+      "chain_id",
+      "description",
+      "website_url",
+      "twitter_url",
+      "discord_url",
+      "docs_url",
+      "image"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "pkg_path": {
+        "type": "string",
+        "pattern": "^gno\\.land/.+"
+      },
+      "symbol": {
+        "type": "string",
+        "minLength": 1
+      },
+      "token_path": {
+        "type": "string",
+        "pattern": "^gno\\.land/.+"
+      },
+      "decimals": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "chain_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1500
+      },
+      "website_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "twitter_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "discord_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "docs_url": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "format": "uri"
+          }
+        ]
+      },
+      "image": {
+        "type": "string",
+        "anyOf": [
+          {
+            "const": ""
+          },
+          {
+            "pattern": "^/grc20/images/[^/]+\\.svg$"
+          }
+        ]
+      }
+    }
+  }
+}

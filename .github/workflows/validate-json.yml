@@ -1,0 +1,29 @@
+# Validates token resource JSON files against the schemas in schemas/.
+# Runs on pull requests and pushes to main. See docs/json-validation-guidelines.md
+# for the enforced rules and how to run the same validation locally.
+name: Validate JSON resources
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install JSON schema validator
+        run: python -m pip install --upgrade pip check-jsonschema
+
+      - name: Validate token resource JSON files
+        run: ./scripts/validate-json.sh
