@@ -95,5 +95,45 @@
     "routes": {
       "funcs": {}
     }
+  },
+  {
+    "name": "Gnomic",
+    "token_path": "gno.land/r/nym-thegnomic001/gnomic.GNOMIC",
+    "pkg_path": "gno.land/r/nym-thegnomic001/gnomic",
+    "symbol": "GNOMIC",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "GNOMIC is a fixed-supply GRC20 token on gno.land: 21,000,000 minted once and never again. 15,000,000 of them went to the addresses that already held GNOT at the chain's genesis, claimable from a Merkle airdrop.",
+    "website_url": "https://gnomic.wtf",
+    "twitter_url": "https://x.com/gnomic_gnoland",
+    "discord_url": "",
+    "docs_url": "https://gnomic.wtf/gnomic",
+    "image": "/grc20/images/gno_land_r_nym-thegnomic001_gnomic.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
   }
 ]
