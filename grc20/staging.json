@@ -18,7 +18,7 @@
     "token_path": "gno.land/r/demo/wugnot.wugnot",
     "pkg_path": "gno.land/r/demo/wugnot",
     "symbol": "wugnot",
-    "decimals": 0,
+    "decimals": 6,
     "chain_id": "staging",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
     "website_url": "https://gno.land/r/demo/wugnot",
