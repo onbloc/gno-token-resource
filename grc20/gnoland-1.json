@@ -46,7 +46,7 @@
     "symbol": "GNS",
     "decimals": 6,
     "chain_id": "gnoland-1",
-    "description": "GnoSwap is the first decentralized exchange (DEX) built using Gnolang – an interpreted variation of the widely-used Go programming language (Golang) that powers the Gnoland blockchain ecosystem. As an automated market maker (AMM) protocol, GnoSwap features an innovative concentrated liquidity mechanism. This mechanism empowers GnoSwap to offer deeper liquidity for trading pairs, resulting in lower slippage and better trading prices for traders, while also generating more fees for liquidity providers.",
+    "description": "GnoSwap is the first decentralized exchange (DEX) built using Gnolang \u2013 an interpreted variation of the widely-used Go programming language (Golang) that powers the Gnoland blockchain ecosystem. As an automated market maker (AMM) protocol, GnoSwap features an innovative concentrated liquidity mechanism. This mechanism empowers GnoSwap to offer deeper liquidity for trading pairs, resulting in lower slippage and better trading prices for traders, while also generating more fees for liquidity providers.",
     "website_url": "https://gnoswap.io",
     "twitter_url": "https://x.com/gnoswaplabs",
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
@@ -128,6 +128,49 @@
         "transfer_from": {
           "name": "TransferFrom",
           "args": [
+            "$from",
+            "$to",
+            "$amount"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Gnomi",
+    "token_path": "gno.land/r/g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt/gnomi/padv3.GNOMI",
+    "pkg_path": "gno.land/r/g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt/gnomi/padv3",
+    "symbol": "GNOMI",
+    "decimals": 0,
+    "chain_id": "gnoland-1",
+    "description": "GNOMI is the GRC20 token launched on gnomi.fun, the meme launchpad on gno.land.",
+    "website_url": "https://gnomi.fun",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/r_g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt_gnomi_padv3_gnomi.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": [
+            "0000001",
+            "$to",
+            "$amount"
+          ]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": [
+            "0000001",
+            "$spender",
+            "$amount"
+          ]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": [
+            "0000001",
             "$from",
             "$to",
             "$amount"
