@@ -114,10 +114,10 @@
   "decimals": 6,
   "chain_id": "gnoland-1",
   "description": "PERUN is a GRC20 token on Gnoland.",
-  "website_url": "",
-  "twitter_url": "",
+  "website_url": "https://gno.land/r/g1s2g47cas6gxamxlkpxu65zu2g4aqma38tx36yv/perun",
+  "twitter_url": "https://x.com/search?q=%24PERUN",
   "discord_url": "",
-  "docs_url": "",
+  "docs_url": "https://gno.land/r/g1s2g47cas6gxamxlkpxu65zu2g4aqma38tx36yv/perun",
   "image": "/grc20/images/perun.svg",
   "routes": {
     "funcs": {
