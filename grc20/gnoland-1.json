@@ -4,7 +4,7 @@
     "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
-    "decimals": 0,
+    "decimals": 6,
     "chain_id": "gnoland-1",
     "description": "wugnot is a wrapped GRC20 version of GNOT, the native coin of Gno.land.",
     "website_url": "https://gno.land/r/gnoland/wugnot",
@@ -16,25 +16,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -56,25 +46,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -113,25 +93,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }

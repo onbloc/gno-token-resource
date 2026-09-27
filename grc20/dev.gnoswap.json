@@ -16,25 +16,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -44,7 +34,7 @@
     "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
-    "decimals": 0,
+    "decimals": 6,
     "chain_id": "dev.gnoswap",
     "description": "This is a GRC20 token issued on dev.gnoswap for testing purposes only. This token has no actual value and never will. There is no guarantee that this token will be available on mainnet.",
     "website_url": "https://gno.land/r/gnoland/wugnot",
@@ -56,25 +46,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -96,25 +76,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -136,25 +106,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -176,25 +136,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -216,25 +166,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -256,25 +196,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -296,25 +226,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -336,25 +256,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -376,25 +286,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -416,25 +316,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
