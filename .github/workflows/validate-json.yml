@@ -1,6 +1,6 @@
-# Validates token resource JSON files against the schemas in schemas/.
+# Checks JSON formatting and validates token resources against the schemas in schemas/.
 # Runs on pull requests and pushes to main. See docs/json-validation-guidelines.md
-# for the enforced rules and how to run the same validation locally.
+# for the enforced rules and how to run the same checks locally.
 name: Validate JSON resources
 
 on:
@@ -16,6 +16,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Lint JSON formatting
+        run: npx --yes prettier@3.6.2 --check 'gno-native/*.json' 'grc20/*.json' 'schemas/*.json'
 
       - name: Set up Python
         uses: actions/setup-python@v5
