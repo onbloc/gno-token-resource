@@ -153,28 +153,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "0000001",
-            "$to",
-            "$amount"
-          ]
+          "args": ["0000001", "$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "0000001",
-            "$spender",
-            "$amount"
-          ]
+          "args": ["0000001", "$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "0000001",
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["0000001", "$from", "$to", "$amount"]
         }
       }
     }
