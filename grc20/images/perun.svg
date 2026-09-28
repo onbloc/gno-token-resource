@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Gradienty do ramy i tła -->
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5b0"/>
+      <stop offset="20%" stop-color="#f2c84b"/>
+      <stop offset="50%" stop-color="#b88318"/>
+      <stop offset="80%" stop-color="#fce288"/>
+      <stop offset="100%" stop-color="#694303"/>
+    </linearGradient>
+
+    <linearGradient id="goldElement" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe67a"/>
+      <stop offset="35%" stop-color="#e2ab27"/>
+      <stop offset="70%" stop-color="#b57a10"/>
+      <stop offset="100%" stop-color="#fdf0a6"/>
+    </linearGradient>
+
+    <radialGradient id="blueBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a43a0"/>
+      <stop offset="70%" stop-color="#052766"/>
+      <stop offset="100%" stop-color="#021338"/>
+    </radialGradient>
+
+    <radialGradient id="sphereGold" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#ffea88"/>
+      <stop offset="60%" stop-color="#d1931b"/>
+      <stop offset="90%" stop-color="#704402"/>
+      <stop offset="100%" stop-color="#3d2100"/>
+    </radialGradient>
+
+    <!-- Pojedyncza sekcja (1 z 6) z łukiem wyciętym na kulę -->
+    <g id="sector">
+      <path d="M 500 500 L 332 209 A 240 240 0 0 0 668 209 Z" fill="url(#goldElement)" stroke="#4a3001" stroke-width="3"/>
+      <!-- Wycięcie/wcięcie łukowe pod świecącą kulę -->
+      <path d="M 385 220 A 115 115 0 0 1 615 220 A 240 240 0 0 0 385 220 Z" fill="url(#blueBg)"/>
+      <path d="M 385 220 A 115 115 0 0 1 615 220" fill="none" stroke="#4a3001" stroke-width="4"/>
+    </g>
+
+    <!-- Swiecaca kula z cyjanowa otoczka -->
+    <g id="glowingSphere">
+      <circle cx="500" cy="155" r="70" fill="none" stroke="#00d8ff" stroke-width="12"/>
+      <circle cx="500" cy="155" r="60" fill="none" stroke="#0088cc" stroke-width="4"/>
+      <circle cx="500" cy="155" r="48" fill="url(#sphereGold)" stroke="#3a2200" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Zewnętrzna złota ramka tarczy -->
+  <circle cx="500" cy="500" r="490" fill="url(#goldRim)"/>
+  <circle cx="500" cy="500" r="460" fill="#2d1a00"/>
+  <circle cx="500" cy="500" r="452" fill="url(#goldRim)"/>
+
+  <!-- Niebieska tarcza -->
+  <circle cx="500" cy="500" r="425" fill="url(#blueBg)" stroke="#020f2b" stroke-width="10"/>
+
+  <!-- 6 Trójkątnych skrzydeł z wycięciami (Rozeta) -->
+  <use href="#sector"/>
+  <use href="#sector" transform="rotate(60 500 500)"/>
+  <use href="#sector" transform="rotate(120 500 500)"/>
+  <use href="#sector" transform="rotate(180 500 500)"/>
+  <use href="#sector" transform="rotate(240 500 500)"/>
+  <use href="#sector" transform="rotate(300 500 500)"/>
+
+  <!-- 6 Świecących kul z cyjanowymi okręgami -->
+  <use href="#glowingSphere"/>
+  <use href="#glowingSphere" transform="rotate(60 500 500)"/>
+  <use href="#glowingSphere" transform="rotate(120 500 500)"/>
+  <use href="#glowingSphere" transform="rotate(180 500 500)"/>
+  <use href="#glowingSphere" transform="rotate(240 500 500)"/>
+  <use href="#glowingSphere" transform="rotate(300 500 500)"/>
+
+  <!-- Środkowa złota kula -->
+  <circle cx="500" cy="500" r="68" fill="none" stroke="url(#goldRim)" stroke-width="8"/>
+  <circle cx="500" cy="500" r="60" fill="url(#sphereGold)" stroke="#3a2200" stroke-width="2"/>
+</svg>

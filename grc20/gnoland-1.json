@@ -4,7 +4,7 @@
     "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
-    "decimals": 0,
+    "decimals": 6,
     "chain_id": "gnoland-1",
     "description": "wugnot is a wrapped GRC20 version of GNOT, the native coin of Gno.land.",
     "website_url": "https://gno.land/r/gnoland/wugnot",
@@ -16,25 +16,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -56,25 +46,15 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
         }
       }
     }
@@ -113,25 +93,45 @@
       "funcs": {
         "transfer": {
           "name": "Transfer",
-          "args": [
-            "$to",
-            "$amount"
-          ]
+          "args": ["$to", "$amount"]
         },
         "approve": {
           "name": "Approve",
-          "args": [
-            "$spender",
-            "$amount"
-          ]
+          "args": ["$spender", "$amount"]
         },
         "transfer_from": {
           "name": "TransferFrom",
-          "args": [
-            "$from",
-            "$to",
-            "$amount"
-          ]
+          "args": ["$from", "$to", "$amount"]
+        }
+      }
+    }
+  },
+  {
+    "name": "Perun",
+    "token_path": "gno.land/r/demo/defi/grc20factory.PERUN",
+    "pkg_path": "gno.land/r/demo/defi/grc20factory",
+    "symbol": "PERUN",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "PERUN is a GRC20 token on Gnoland.",
+    "website_url": "https://gno.land/r/g1s2g47cas6gxamxlkpxu65zu2g4aqma38tx36yv/perun",
+    "twitter_url": "https://x.com/search?q=%24PERUN",
+    "discord_url": "",
+    "docs_url": "https://gno.land/r/g1s2g47cas6gxamxlkpxu65zu2g4aqma38tx36yv/perun",
+    "image": "/grc20/images/perun.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["PERUN", "$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["PERUN", "$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["PERUN", "$from", "$to", "$amount"]
         }
       }
     }

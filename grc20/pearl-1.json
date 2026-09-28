@@ -18,7 +18,7 @@
     "token_path": "gno.land/r/gnoland/wugnot.wugnot",
     "pkg_path": "gno.land/r/gnoland/wugnot",
     "symbol": "wugnot",
-    "decimals": 0,
+    "decimals": 6,
     "chain_id": "pearl-1",
     "description": "This is a GRC20 token issued on pearl-1 for testing purposes only. This token has no actual value and never will. There is no guarantee that this token will be available on mainnet.",
     "website_url": "https://gno.land/r/gnoland/wugnot",
