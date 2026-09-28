@@ -107,6 +107,36 @@
     }
   },
   {
+    "name": "BUBBLE (wrapped)",
+    "token_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/wbubble.BUBBLE",
+    "pkg_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/wbubble",
+    "symbol": "BUBBLE",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "Wrapped BUBBLE is a registered GRC20 token backed 1:1 by the original Bubble Rumble BUBBLE held in the wrapper realm. BUBBLE is the token of Bubble Rumble (bubblerumble.net), a game of bidding pools on gno.land. It is earned by inviting friends who settle in and play, and each BUBBLE is a vote on what gets built there and on the BUBBLE treasury, which takes 5% of every boop. Supply is capped at 100,000,000; 10,000,000 is the founding share and the rest is minted only as referrals count, with the reward halving each era. The realm exposes the GRC20 surface (TotalSupply, BalanceOf, Allowance, Transfer, Approve, TransferFrom) over a ledger that also keeps voting checkpoints; it is not registered in gno.land/r/nt/grc20reg, so pools use a wrapped form. A game token: nothing promises it a value.",
+    "website_url": "https://bubblerumble.net",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "https://bubblerumble.net/bubble.html",
+    "image": "/grc20/images/gno_land_r_g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr_wbubble.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["$from", "$to", "$amount"]
+        }
+      }
+    }
+  },
+  {
     "name": "Perun",
     "token_path": "gno.land/r/demo/defi/grc20factory.PERUN",
     "pkg_path": "gno.land/r/demo/defi/grc20factory",
