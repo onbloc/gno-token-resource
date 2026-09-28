@@ -165,5 +165,35 @@
         }
       }
     }
+  },
+  {
+    "name": "Gnomi",
+    "token_path": "gno.land/r/g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt/gnomi/padv3.GNOMI",
+    "pkg_path": "gno.land/r/g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt/gnomi/padv3",
+    "symbol": "GNOMI",
+    "decimals": 0,
+    "chain_id": "gnoland-1",
+    "description": "GNOMI is the GRC20 token launched on gnomi.fun, the meme launchpad on gno.land.",
+    "website_url": "https://gnomi.fun",
+    "twitter_url": "https://x.com/gnomidotfun",
+    "discord_url": "",
+    "docs_url": "https://gnomi.fun/docs",
+    "image": "/grc20/images/r_g1n4pl5uc4yt5r96m9w6fmdznx3x0jyg8l6arhmt_gnomi_padv3_gnomi.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["0000001", "$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["0000001", "$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["0000001", "$from", "$to", "$amount"]
+        }
+      }
+    }
   }
 ]
