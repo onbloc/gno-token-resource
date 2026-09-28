@@ -185,4 +185,7 @@ on-chain route response). User input must never reach `args`.
 
 ## Validate your changes
 
-CI validates all token resource JSON files against their directory-specific schemas on every pull request and push to `main`. Before opening a pull request, follow the [JSON validation guidelines](./docs/json-validation-guidelines.md) and run the validation locally.
+CI checks the formatting of token resources and schemas, and validates token resources
+against their directory-specific schemas on every pull request and push to `main`.
+Before opening a pull request, follow the [JSON validation guidelines](./docs/json-validation-guidelines.md)
+and run both checks locally.

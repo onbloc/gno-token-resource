@@ -63,13 +63,15 @@ Those rules can be added later after the existing data is normalized.
 
 ## How validation runs
 
-A GitHub Action (`.github/workflows/validate-json.yml`) runs `./scripts/validate-json.sh` on every pull request and on pushes to `main`, so contributor changes are checked before merge.
+A GitHub Action (`.github/workflows/validate-json.yml`) checks JSON formatting with Prettier
+and runs `./scripts/validate-json.sh` on every pull request and push to `main`.
 
-## Run validation locally
+## Run checks locally
 
 ```shell
 python3 -m pip install check-jsonschema
 ./scripts/validate-json.sh
+npx --yes prettier@3.6.2 --check 'gno-native/*.json' 'grc20/*.json' 'schemas/*.json'
 ```
 
 If your Python is externally managed, install the CLI with `uv tool install check-jsonschema` instead.
@@ -81,5 +83,5 @@ When you add a new required field or change a JSON shape:
 
 1. Update the matching schema in `schemas/`.
 2. Update the contributor guidance in `CONTRIBUTING.md`.
-3. Run `./scripts/validate-json.sh` locally.
+3. Run the local validation and formatting checks.
 4. Confirm the GitHub Action passes in your pull request.
