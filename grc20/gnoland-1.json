@@ -108,8 +108,8 @@
   },
   {
     "name": "BUBBLE",
-    "token_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/bubble.BUBBLE",
-    "pkg_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/bubble",
+    "token_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/wbubble.BUBBLE",
+    "pkg_path": "gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/wbubble",
     "symbol": "BUBBLE",
     "decimals": 6,
     "chain_id": "gnoland-1",
@@ -118,7 +118,7 @@
     "twitter_url": "",
     "discord_url": "",
     "docs_url": "https://bubblerumble.net/bubble.html",
-    "image": "/grc20/images/gno_land_r_g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr_bubble.svg",
+    "image": "/grc20/images/gno_land_r_g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr_wbubble.svg",
     "routes": {
       "funcs": {
         "transfer": {
