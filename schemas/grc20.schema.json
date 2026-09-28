@@ -117,13 +117,7 @@
       "minLength": 1,
       "anyOf": [
         {
-          "enum": [
-            "$to",
-            "$from",
-            "$spender",
-            "$owner",
-            "$amount"
-          ]
+          "enum": ["$to", "$from", "$spender", "$owner", "$amount"]
         },
         {
           "pattern": "^\\$\\$"
@@ -137,10 +131,7 @@
       "description": "One callable exported function on the token realm.",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "name",
-        "args"
-      ],
+      "required": ["name", "args"],
       "properties": {
         "name": {
           "description": "Exported function name on pkg_path.",
@@ -215,9 +206,7 @@
       "description": "Optional direct-MsgCall routing metadata. Absent means consumers fall back to MsgRun via grc20reg.",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "funcs"
-      ],
+      "required": ["funcs"],
       "properties": {
         "funcs": {
           "description": "Map of operation name to call shape. A missing operation is a deliberate declaration that the realm does not expose it, not an omission.",
