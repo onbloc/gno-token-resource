@@ -60,7 +60,7 @@
     }
   },
   {
-    "name": "XGNS",
+    "name": "xGNS",
     "token_path": "gno.land/r/gnoswap/gov/xgns.xGNS",
     "pkg_path": "gno.land/r/gnoswap/gov/xgns",
     "symbol": "xGNS",
