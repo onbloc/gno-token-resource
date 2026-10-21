@@ -189,3 +189,25 @@ CI checks the formatting of token resources and schemas, and validates token res
 against their directory-specific schemas on every pull request and push to `main`.
 Before opening a pull request, follow the [JSON validation guidelines](./docs/json-validation-guidelines.md)
 and run both checks locally.
+
+## How to add your GRC721 collection
+
+Same steps as above, but add the entry to `/grc721/{CHAIN_ID}.json` and the image to
+`/grc721/images`. A GRC721 entry has no `token_path`, `decimals`, or `routes`:
+
+```json
+[
+  {
+    "name": "Foo NFT",
+    "pkg_path": "gno.land/r/demo/foonft",
+    "symbol": "FNFT",
+    "chain_id": "gnoland-1",
+    "description": "Foo NFT is a test realm of GRC721",
+    "website_url": "https://foo.com",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc721/images/foonft.svg"
+  }
+]
+```
