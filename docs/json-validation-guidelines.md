@@ -6,6 +6,7 @@ This repository now validates token resource JSON files with JSON Schema.
 
 - `gno-native/*.json` → `schemas/gno-native.schema.json`
 - `grc20/*.json` → `schemas/grc20.schema.json`
+- `grc721/*.json` → `schemas/grc721.schema.json`
 
 ## What is enforced
 
@@ -71,7 +72,7 @@ and runs `./scripts/validate-json.sh` on every pull request and push to `main`.
 ```shell
 python3 -m pip install check-jsonschema
 ./scripts/validate-json.sh
-npx --yes prettier@3.6.2 --check 'gno-native/*.json' 'grc20/*.json' 'schemas/*.json'
+npx --yes prettier@3.6.2 --check 'gno-native/*.json' 'grc20/*.json' 'grc721/*.json' 'schemas/*.json'
 ```
 
 If your Python is externally managed, install the CLI with `uv tool install check-jsonschema` instead.

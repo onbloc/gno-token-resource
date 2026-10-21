@@ -20,6 +20,7 @@ fi
 
 check-jsonschema --schemafile "$ROOT_DIR/schemas/gno-native.schema.json" "$ROOT_DIR"/gno-native/*.json
 check-jsonschema --schemafile "$ROOT_DIR/schemas/grc20.schema.json" "$ROOT_DIR"/grc20/*.json
+check-jsonschema --schemafile "$ROOT_DIR/schemas/grc721.schema.json" "$ROOT_DIR"/grc721/*.json
 
 # Rules below are cross-field invariants that JSON Schema cannot express.
 failed=0
