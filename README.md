@@ -1,6 +1,6 @@
 # Gno.land Token Resources
 
-This repository is a comprehensive and up-to-date collection of information about Gno-native and GRC20 tokens on Gno.land.
+This repository is a comprehensive and up-to-date collection of information about Gno-native, GRC20 tokens, and GRC721 collections on Gno.land.
 
 As we embrace true decentralization and permissionless platforms on Gno.land, we allow anyone to submit information about their tokens and any products or services to freely use the token resources in this repository. Our goal is to provide the community with the necessary resources to develop and innovate on the Gno.land blockchain, in a collaborative and open-source manner.
 
@@ -10,9 +10,9 @@ As we embrace true decentralization and permissionless platforms on Gno.land, we
 - [GnoScan](https://gnoscan.io/)
 - [GnoSwap](https://beta.gnoswap.io/)
 
-## How to add your token
+## How to add your token or collection
 
-See the [Contributing Guide](./CONTRIBUTING.md) for instructions on adding token resources and validating your changes.
+See the [Contributing Guide](./CONTRIBUTING.md) for instructions on adding token and collection resources and validating your changes.
 
 ## Disclaimer
 
