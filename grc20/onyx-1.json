@@ -1,0 +1,79 @@
+[
+  {
+    "name": "wGNOT",
+    "token_path": "gno.land/r/gnoland/wugnot.wugnot",
+    "pkg_path": "gno.land/r/gnoland/wugnot",
+    "symbol": "wugnot",
+    "decimals": 6,
+    "chain_id": "onyx-1",
+    "description": "wugnot is a wrapped GRC20 version of GNOT, the native coin of Gno.land.",
+    "website_url": "https://gno.land/r/gnoland/wugnot",
+    "twitter_url": "",
+    "discord_url": "",
+    "docs_url": "https://gno.land/r/gnoland/wugnot",
+    "image": "/grc20/images/gno_land_r_demo_wugnot.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["$from", "$to", "$amount"]
+        }
+      }
+    }
+  },
+  {
+    "name": "GnoSwap",
+    "token_path": "gno.land/r/gnoswap/gns.GNS",
+    "pkg_path": "gno.land/r/gnoswap/gns",
+    "symbol": "GNS",
+    "decimals": 6,
+    "chain_id": "onyx-1",
+    "description": "GnoSwap is the first decentralized exchange (DEX) built using Gnolang – an interpreted variation of the widely-used Go programming language (Golang) that powers the Gnoland blockchain ecosystem. As an automated market maker (AMM) protocol, GnoSwap features an innovative concentrated liquidity mechanism. This mechanism empowers GnoSwap to offer deeper liquidity for trading pairs, resulting in lower slippage and better trading prices for traders, while also generating more fees for liquidity providers.",
+    "website_url": "https://gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://docs.gnoswap.io",
+    "image": "/grc20/images/gno_land_r_gnoswap_gns.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["$from", "$to", "$amount"]
+        }
+      }
+    }
+  },
+  {
+    "name": "xGNS",
+    "token_path": "gno.land/r/gnoswap/gov/xgns.xGNS",
+    "pkg_path": "gno.land/r/gnoswap/gov/xgns",
+    "symbol": "xGNS",
+    "decimals": 6,
+    "chain_id": "onyx-1",
+    "description": "xGNS is a non-transferable governance token issued 1:1 to users who stake GNS in the single-token staking pool, which serves as the voting-power escrow for GnoSwap Governance. The amount of xGNS a user holds equals the amount of GNS they have staked.",
+    "website_url": "https://gnoswap.io",
+    "twitter_url": "https://x.com/gnoswaplabs",
+    "discord_url": "https://discord.com/invite/u4bdGHStb2",
+    "docs_url": "https://gno.land/r/gnoswap/gov/xgns",
+    "image": "/grc20/images/gno_land_r_gnoswap_gov_xgns.svg",
+    "routes": {
+      "funcs": {}
+    }
+  }
+]
