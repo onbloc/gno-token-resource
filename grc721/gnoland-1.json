@@ -10,5 +10,17 @@
     "discord_url": "https://discord.com/invite/u4bdGHStb2",
     "docs_url": "https://docs.gnoswap.io",
     "image": "/grc721/images/gno_land_r_gnoswap_gnft.svg"
+  },
+  {
+    "name": "GnoFly Planes",
+    "pkg_path": "gno.land/r/g1t2kg2vtr3fukg43eujkn6x53gfdyakhngt4sfd/gnofly/nfts/planes",
+    "symbol": "PLANE",
+    "chain_id": "gnoland-1",
+    "description": "GnoFly Planes is the playable plane NFT collection for gnofly.xyz, a multiplayer browser plane game on gno.land. 777 unique planes across common, rare, epic, and legendary tiers.",
+    "website_url": "https://gnofly.xyz",
+    "twitter_url": "https://x.com/gnoflyxyz",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc721/images/gno_land_r_g1t2kg2vtr3fukg43eujkn6x53gfdyakhngt4sfd_gnofly_nfts_planes.svg"
   }
 ]
