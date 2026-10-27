@@ -1,6 +1,6 @@
 [
   {
-    "name": "GNOSWAP NFT",
+    "name": "GnoSwap NFT",
     "pkg_path": "gno.land/r/gnoswap/gnft",
     "symbol": "GNFT",
     "chain_id": "gnoland-1",
