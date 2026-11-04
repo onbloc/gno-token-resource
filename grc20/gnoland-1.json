@@ -195,5 +195,35 @@
         }
       }
     }
+  },
+  {
+    "name": "Wizards",
+    "token_path": "gno.land/r/nym-wizards001/drop.WIZ",
+    "pkg_path": "gno.land/r/nym-wizards001/drop",
+    "symbol": "WIZ",
+    "decimals": 6,
+    "chain_id": "gnoland-1",
+    "description": "Wizards (WIZ) is the GRC20 token of Gnowizards on gnoland-1. The package is gno.land/r/nym-wizards001/drop. Decimals are 6 and the supply is 10,000,000,000. A sealed list lets each eligible address claim once, from 5 Nov 2026, 00:00 UTC through 3 Feb 2027, 00:00 UTC. Transfer, Approve, and TransferFrom on this realm revert until 10 Nov 2026, 00:00 UTC.",
+    "website_url": "https://gnowizards.xyz",
+    "twitter_url": "https://x.com/_Gnowizards",
+    "discord_url": "",
+    "docs_url": "",
+    "image": "/grc20/images/gno_land_r_nym-wizards001_drop.svg",
+    "routes": {
+      "funcs": {
+        "transfer": {
+          "name": "Transfer",
+          "args": ["$to", "$amount"]
+        },
+        "approve": {
+          "name": "Approve",
+          "args": ["$spender", "$amount"]
+        },
+        "transfer_from": {
+          "name": "TransferFrom",
+          "args": ["$from", "$to", "$amount"]
+        }
+      }
+    }
   }
 ]
